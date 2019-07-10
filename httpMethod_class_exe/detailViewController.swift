@@ -13,9 +13,6 @@ class detailViewController: UIViewController {
     
     var passSelectName = ""
 
-    
-    
-    
     @IBOutlet weak var nameLable: UILabel!
     @IBOutlet weak var IDLable: UILabel!
     @IBOutlet weak var sexLable: UILabel!

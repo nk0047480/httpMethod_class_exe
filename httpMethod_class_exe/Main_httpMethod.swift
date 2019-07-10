@@ -85,3 +85,40 @@ class httpRequest {
     
     
 }
+
+
+/*
+ <?php
+ 
+ header("Content-Type: text/html; charset = utf-8");
+ include("connMysql.php");
+ $selectDB = mysqli_select_db($db_link, "class_exe");
+ 
+ if (!$selectDB) {
+ die("資料庫選擇失敗");
+ } else {
+ //echo "資料庫選擇成功<br>";
+ }
+ 
+ if (isset($_POST["name"])) {
+ //echo "參數上傳成功<br>";
+ 
+ $postName = $_POST["name"];
+ 
+ $sql_query_IDName = "SELECT * FROM students WHERE cName = '" . $postName . "'";
+ $result2 = mysqli_query($db_link, $sql_query_IDName);
+ 
+ while($row_result = mysqli_fetch_row($result2)) {
+ foreach($row_result as $item => $value) {
+ //echo $item . "=" . $value . "<br>";
+ echo $value . " ";
+ }
+ //echo "<hr />";
+ }
+ } else {
+ echo "POST的名字錯誤";
+ }
+ 
+ ?>
+ */
+
