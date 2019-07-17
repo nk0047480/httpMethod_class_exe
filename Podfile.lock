@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.8.2)
+  - DLRadioButton (1.4.12)
+  - QRCodeReader.swift (9.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - DLRadioButton (~> 1.4)
+  - QRCodeReader.swift (~> 9.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DLRadioButton
+    - QRCodeReader.swift
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  QRCodeReader.swift: 96292a5612fbc2fd9a0b26f93fa5164c8d02f59d
+
+PODFILE CHECKSUM: f371261367cc37073a32c0a641a3c302e055f5d2
+
+COCOAPODS: 1.6.1

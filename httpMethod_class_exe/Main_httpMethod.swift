@@ -39,7 +39,6 @@ class httpRequest {
                     if let utf8Text = String(data: response.data!, encoding: .utf8) {
                         var utf8TextArr = utf8Text.components(separatedBy: " ")
                         utf8TextArr.removeLast()
-                        self.labeltext(responseData: utf8TextArr)
                         //print("asdsadsadasd\(self.responseDetail)asdasdasda")
                     }
                 } else {
@@ -49,9 +48,20 @@ class httpRequest {
         //print("===========\(self.responseDetail)")
     }
     
-    
-    static func labeltext(responseData: Array<String>) {
-        self.responseDetail = responseData
+    static func addInformation(postName:String, postSex:String, postBirth:String, postEmail:String, postPhone:String, postAdd:String) {
+        Alamofire.request("http://192.168.0.117/mySQL_exe/addInformation.php", method: .post, parameters: ["addName":postName, "addSex":postSex, "addBirth":postBirth, "addEmail":postEmail, "addPhone":postPhone, "addAdd":postAdd])
+            .response { response in
+                
+                if (response.data != nil) {//解閉包，如果有東西則執行下列程式
+                    if let utf8Text = String(data: response.data!, encoding: .utf8) {
+                        var utf8TextArr = utf8Text.components(separatedBy: " ")
+                        utf8TextArr.removeLast()
+                        //print("asdsadsadasd\(self.responseDetail)asdasdasda")
+                    }
+                } else {
+                    print("error")
+                }
+        }
     }
     
     /*static func getStudentDetail(name: String) -> Array<String> {
