@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 
 class QRcodeViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
-    
+    //**
     
 
     @IBOutlet weak var view_iv: UIImageView!
