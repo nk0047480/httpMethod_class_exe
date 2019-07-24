@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0C3FB7463142DC81B905592306EE1AF4"
+               BlueprintIdentifier = "EA5C821EC067AFDCFCFE4ADDFF319A8E"
                BuildableName = "Pods_httpMethod_class_exe.framework"
                BlueprintName = "Pods-httpMethod_class_exe"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0C3FB7463142DC81B905592306EE1AF4"
+            BlueprintIdentifier = "EA5C821EC067AFDCFCFE4ADDFF319A8E"
             BuildableName = "Pods_httpMethod_class_exe.framework"
             BlueprintName = "Pods-httpMethod_class_exe"
             ReferencedContainer = "container:Pods.xcodeproj">

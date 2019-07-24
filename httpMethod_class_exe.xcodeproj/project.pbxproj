@@ -17,9 +17,11 @@
 		0444261922D3293B00090CD1 /* Main_httpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444261822D3293B00090CD1 /* Main_httpMethod.swift */; };
 		0444261F22D32C6200090CD1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444261E22D32C6200090CD1 /* TableViewController.swift */; };
 		0444262122D46A5300090CD1 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444262022D46A5300090CD1 /* detailViewController.swift */; };
+		0468FA3622E6F2BC000F5453 /* NVActivityIndicatorViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468FA3522E6F2BC000F5453 /* NVActivityIndicatorViewViewController.swift */; };
 		04BA69E422D5C861002020B4 /* Add_InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA69E322D5C861002020B4 /* Add_InformationViewController.swift */; };
 		04C664F622DDB63600CEC5A0 /* QRcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C664F522DDB63600CEC5A0 /* QRcodeViewController.swift */; };
 		04C664FA22DEBD0B00CEC5A0 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C664F922DEBD0B00CEC5A0 /* QRViewController.swift */; };
+		04C664FC22E0107B00CEC5A0 /* QRCodeFailedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C664FB22E0107B00CEC5A0 /* QRCodeFailedController.swift */; };
 		08D9B5D3C31C075FA6CE7196 /* Pods_httpMethod_class_exe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61A34B85C08DB9E9B42EAF2 /* Pods_httpMethod_class_exe.framework */; };
 		6376A631B7DC4237E79DE04D /* Pods_httpMethod_class_exeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B95EC7FDE7B6F0BA8D6907 /* Pods_httpMethod_class_exeUITests.framework */; };
 		79FF3CEEE6C392A4D8B52D32 /* Pods_httpMethod_class_exeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33959E56638DEF4C26224769 /* Pods_httpMethod_class_exeTests.framework */; };
@@ -59,9 +61,11 @@
 		0444261822D3293B00090CD1 /* Main_httpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_httpMethod.swift; sourceTree = "<group>"; };
 		0444261E22D32C6200090CD1 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		0444262022D46A5300090CD1 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		0468FA3522E6F2BC000F5453 /* NVActivityIndicatorViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorViewViewController.swift; sourceTree = "<group>"; };
 		04BA69E322D5C861002020B4 /* Add_InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_InformationViewController.swift; sourceTree = "<group>"; };
 		04C664F522DDB63600CEC5A0 /* QRcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRcodeViewController.swift; sourceTree = "<group>"; };
 		04C664F922DEBD0B00CEC5A0 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		04C664FB22E0107B00CEC5A0 /* QRCodeFailedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeFailedController.swift; sourceTree = "<group>"; };
 		0D735AA8D4E51162967D5CAA /* Pods-httpMethod_class_exe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-httpMethod_class_exe.debug.xcconfig"; path = "Target Support Files/Pods-httpMethod_class_exe/Pods-httpMethod_class_exe.debug.xcconfig"; sourceTree = "<group>"; };
 		33959E56638DEF4C26224769 /* Pods_httpMethod_class_exeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_httpMethod_class_exeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B95EC7FDE7B6F0BA8D6907 /* Pods_httpMethod_class_exeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_httpMethod_class_exeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +142,8 @@
 				04BA69E322D5C861002020B4 /* Add_InformationViewController.swift */,
 				04C664F522DDB63600CEC5A0 /* QRcodeViewController.swift */,
 				04C664F922DEBD0B00CEC5A0 /* QRViewController.swift */,
+				04C664FB22E0107B00CEC5A0 /* QRCodeFailedController.swift */,
+				0468FA3522E6F2BC000F5453 /* NVActivityIndicatorViewViewController.swift */,
 			);
 			path = httpMethod_class_exe;
 			sourceTree = "<group>";
@@ -347,6 +353,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-httpMethod_class_exe/Pods-httpMethod_class_exe-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -355,6 +362,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,11 +423,13 @@
 			files = (
 				044425ED22D3291100090CD1 /* ViewController.swift in Sources */,
 				044425EB22D3291100090CD1 /* AppDelegate.swift in Sources */,
+				04C664FC22E0107B00CEC5A0 /* QRCodeFailedController.swift in Sources */,
 				0444261922D3293B00090CD1 /* Main_httpMethod.swift in Sources */,
 				04C664FA22DEBD0B00CEC5A0 /* QRViewController.swift in Sources */,
 				04BA69E422D5C861002020B4 /* Add_InformationViewController.swift in Sources */,
 				0444262122D46A5300090CD1 /* detailViewController.swift in Sources */,
 				04C664F622DDB63600CEC5A0 /* QRcodeViewController.swift in Sources */,
+				0468FA3622E6F2BC000F5453 /* NVActivityIndicatorViewViewController.swift in Sources */,
 				0444261F22D32C6200090CD1 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

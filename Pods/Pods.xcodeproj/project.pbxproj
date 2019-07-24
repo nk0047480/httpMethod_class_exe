@@ -7,72 +7,123 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		059D92B7BBFBEC53E9A3B6E11C5C3B3A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7E608901B168089B3367299013BE1C /* Response.swift */; };
-		0A39AF55285A3A4F7CBABB6D822FA4A3 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB1803BD13748BE27B95ADD99281DAE /* Alamofire.swift */; };
-		0CAD82EE6CF9B14CFE6D9D263A01349E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */; };
-		0DDDE4B88D870D6225BAB7EECD72B490 /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D475CDF744E7398542987FA3D500E8 /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D29D2ACADF961F69D32B06FA6A09E28 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869151D8EEB10858339B3694876B56F /* Notifications.swift */; };
-		1D69E36007D5546C41C0410F2D0D5A75 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3ECF32F7E406A23836F75F57547D0 /* QRCodeReaderViewController.swift */; };
-		260827834D4BE9B3F38BD395F5505ED9 /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3296B0DD3CAC11066CDB3B91715F2 /* QRCodeReaderViewContainer.swift */; };
+		01A5A8E4FD9D4A0741F6FD4D6DA8B9F9 /* QRCodeReader.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C71469C248830BE65DE99B19F2C7161F /* QRCodeReader.swift-dummy.m */; };
+		0250367B9C6A10F20A3EFA4C38993F5A /* NVActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4CE0FD208CB5C730D31F09C37C942 /* NVActivityIndicatorPresenter.swift */; };
+		059D92B7BBFBEC53E9A3B6E11C5C3B3A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB6D7A9D665F3D7F01D7A5E7F8EAF8 /* Response.swift */; };
+		06C67BCBA6A874BD3880821F5DBB0A89 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE304C4134067B37D3AC3BBC662F031E /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		0A049810D911F2BE93DBB6DED9F85F9E /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E41BCACAA3901E4CC80343177F8AB2 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
+		0A39AF55285A3A4F7CBABB6D822FA4A3 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A88590E3A0AD655A94721C40175C28F /* Alamofire.swift */; };
+		0B2F6D044BE18EB8915AB2FEDC712662 /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48F18C2DC2E91875476FBA9B303995 /* QRCodeReaderView.swift */; };
+		0CAD82EE6CF9B14CFE6D9D263A01349E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE521BF0526F4E213F6CFAD9245487F /* Foundation.framework */; };
+		0DDDE4B88D870D6225BAB7EECD72B490 /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C336ED8629198671F2E4760DA3CA8E /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		173B2AB93E6069FDDF700BA452E92999 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB7705DA8E0E0C12928B41C4A77557 /* NVActivityIndicatorAnimationBallZigZag.swift */; };
+		1D29D2ACADF961F69D32B06FA6A09E28 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318398F4767D710F48D1B8FA24D58FED /* Notifications.swift */; };
+		241D8706075A6FB075A5CFA2E60873C2 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F2EF7040B6D738B194F25D355A960F /* NVActivityIndicatorAnimationDelegate.swift */; };
+		294E54C2F064E420252BC02E9E693C0B /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EED6F4A2D9FFFA1C0B02A68C84D7241 /* NVActivityIndicatorAnimationOrbit.swift */; };
 		2AD2F05BBD2BB364BA20207CD8C28CD6 /* Pods-httpMethod_class_exeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C8362066CF9F3E15DD6ED5DD166C1F5 /* Pods-httpMethod_class_exeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		355C18EEC82624A06A6CC93965258E33 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9966F15149A30C095D13C515CB064C /* Request.swift */; };
-		3BD1DAFE1F3E6C9E4EB0F2099B6D6FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */; };
-		3C6672E255DF9D94BAB11A74BD6D8635 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45D279B5209B5773FC1F6421F97FA5 /* ToggleTorchButton.swift */; };
-		3E0749AF6C51BCF0E4A41CF1D6A76FED /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E4586503EAB783CB3B9DFFCE043EC5 /* DispatchQueue+Alamofire.swift */; };
-		3F87EC70D23DBF1E07D4D66CF65F6B9E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8B077304B6FAD57228480E9C187D59 /* AVFoundation.framework */; };
-		47172927E80135EEE9FA59424FFA031B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */; };
-		50A74FEE0E800B8D0DD94DBC15CDB70A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */; };
-		5165E39E6D11DE6800F2917EF59258D2 /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DC474BCCC4691299E4671037E85A81 /* QRCodeReaderViewControllerBuilder.swift */; };
-		547690AE41B6B1FADFD1E42814AD1C6B /* Pods-httpMethod_class_exe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9743D4CBABAC13FF79399156C20240 /* Pods-httpMethod_class_exe-dummy.m */; };
-		55B2CCDC53F0969011D2BA234E56B7E9 /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEAB86898E4D0AB525F7F479C7EB9DF8 /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FBCEA092EFD59A19B9832C44233B4A2 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D5961CA8AA0B67D7982CBB2F987FDB /* QRCodeReaderResult.swift */; };
+		355C18EEC82624A06A6CC93965258E33 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3EDB14D097ADE31ADE0B7EFD4CE5B8 /* Request.swift */; };
+		38627D11DDF0EF609B0140DEBEB94186 /* Pods-httpMethod_class_exe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6656326B82624F02B1FF17B22BE0ADC2 /* Pods-httpMethod_class_exe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BB7737D1AFDED41F90C79EB8DE80FE8 /* NVActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 110053D8E7BACBC35B4D3899786B63D3 /* NVActivityIndicatorView-dummy.m */; };
+		3BD1DAFE1F3E6C9E4EB0F2099B6D6FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE521BF0526F4E213F6CFAD9245487F /* Foundation.framework */; };
+		3DDA9AC778332AD5C791AB22D387B251 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8ED33CBA70EF890BB253E6C0B7ACFA /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		3E0749AF6C51BCF0E4A41CF1D6A76FED /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C99C9A1EA82A4AEDB8CC8D970DF75 /* DispatchQueue+Alamofire.swift */; };
+		3EA01D63D0204092024D113ADC9B4C26 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B018483AB89B5F9D1EE5D910D00C04 /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
+		478D927565C9922FD7CFDE8520D87D81 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6351482B4AD92D924ABAA24B74B7579 /* NVActivityIndicatorAnimationBallBeat.swift */; };
+		4C727A2F40D4EF69741F29529323EF62 /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4FF1CF4AAAE3177BCC680B3564EC1F /* QRCodeReaderViewControllerBuilder.swift */; };
+		4E8F9B0F535F34A47D1E01B5008D88DF /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CCDA4C479005F0E6263575BAE20E50 /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
+		4F7AB1D7316D3B8C31208ABF2D73CC31 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD53044CF56478A101961F2054EEE1B /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		52F124B1DAB41BF6275A0A851B799DBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE521BF0526F4E213F6CFAD9245487F /* Foundation.framework */; };
+		53F1C3093A17BF73042AF4BAB0E6B030 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0C3CF42BA84A43C55FE705F0AE1AE5 /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
+		547FD24D18F637E68341E9F714B8D173 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC533CDD2653466DE35B0EBB56BFE13F /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		55B2CCDC53F0969011D2BA234E56B7E9 /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4263C89F14E28AD7A05C5B96A789AB0D /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AD523D6FAB7C12E700688B4B7C86295 /* Pods-httpMethod_class_exeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E48CCCF561C9A52B894E2D39A7874F /* Pods-httpMethod_class_exeUITests-dummy.m */; };
-		60B6C2A003864AAD3A426448152F67BE /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C808EED58EA384CF5A84A7D463AB66CD /* Timeline.swift */; };
-		62F66F2A06C858B248486E4A58E3CA15 /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D5E35BB58FA11AD7F617FCA01AEE7 /* QRCodeReaderView.swift */; };
-		651216E55EC5855D0163AC222DF938A6 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5CAE01B7350CDFFCF1FEEA4CC1293 /* QRCodeReader.swift */; };
-		6ADAE5E90FE756CBE314027798E0ADF9 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90976B0231EF4C80D74D8052D900F5E /* SwitchCameraButton.swift */; };
-		6EFD003458AE7F689DEA720A2030C261 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A3950FB7EF027FD838C90B8A425CF /* ResponseSerialization.swift */; };
-		700D3D95AF9520CB227846DFD943A2DA /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2BB64CE05EBF4489E17480850F572C /* ParameterEncoding.swift */; };
-		73AB05789A4982944AF68DBD013E3EB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CB67CA513C5B3AA6B7F43ACC88F865 /* NetworkReachabilityManager.swift */; };
-		772911DA6E33D1CBBC30131B7C8BDBB3 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE7A33D06287A69606DAADA9AE4EDE /* Alamofire-dummy.m */; };
-		77E8F0EB9FFBE2E3EB0C77095C644606 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF365ED0EB0E02B5D88FC3AAE9A0287E /* TaskDelegate.swift */; };
-		7C0BE3413A2D5EA742C6977ABE4F7F04 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B8309FA987A83056B5A06CABD7C60 /* ReaderOverlayView.swift */; };
-		7E3538A6992A38276764936A9733493D /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE5B9C57DFDA35AA79DBD342FD43AC /* AFError.swift */; };
-		8218C93FBBB678F4C6AED0107C877717 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4740814E8883D10E4D9E90400540A46D /* QRCodeReaderResult.swift */; };
-		8D2A6A90A6DDAF75EA52D471258545CC /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628F0BFA7D93CCCBE6FDD0B296B3CC93 /* ServerTrustPolicy.swift */; };
-		A1EC41966B261DCE460BCDE5124A1DBE /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADC1A12377C20397BA9A6614E410339 /* SessionDelegate.swift */; };
+		5BAA2E8935DDC767AA844976A263A145 /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B94128CBB65A92FCA1033888E5B9B /* NVActivityIndicatorShape.swift */; };
+		5DCAE6B70121FFEFA47B0A623777F1AE /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D6EF75011E32DF97459E871C65F547 /* NVActivityIndicatorAnimationPacman.swift */; };
+		60B6C2A003864AAD3A426448152F67BE /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22DF3C46BB3F592A87C29A8D872637 /* Timeline.swift */; };
+		6552CAEB9AA077C793B8FA13C1B49B2F /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C23B935E466D935112D2E49ECD9A29 /* NVActivityIndicatorAnimationSquareSpin.swift */; };
+		6A0BB21F82E342EC6809AA0F45BA4FFE /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC7F4C560D7F3E069BA6226400B787 /* NVActivityIndicatorAnimationCubeTransition.swift */; };
+		6AC636BC706965DE024D90F31C7530E5 /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470EF03820D2FABF86190574E0737DB8 /* QRCodeReaderViewContainer.swift */; };
+		6E3EC73326F49D2505E4797474826340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE521BF0526F4E213F6CFAD9245487F /* Foundation.framework */; };
+		6EFD003458AE7F689DEA720A2030C261 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F25D90123912F96114AA020951A6E8 /* ResponseSerialization.swift */; };
+		700D3D95AF9520CB227846DFD943A2DA /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A4D8F5BA08EB936B4F3B0A94A4DB3 /* ParameterEncoding.swift */; };
+		7056AD6E8676C1D600CD3E0F66642078 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21F7BB043465FD8B496CDF47BD7EA99 /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
+		71734AC4FE7D42D2087361E9E826834C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C34F24D621F7149E4AA7910CB92FBE1 /* UIKit.framework */; };
+		73AB05789A4982944AF68DBD013E3EB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933311F0076A49352A8A6DAFB4B6E677 /* NetworkReachabilityManager.swift */; };
+		759757524FF111AEFBB5E236A3D19749 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916B6EEFC8567D8EAE28E2BB4B5FF7D /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
+		772911DA6E33D1CBBC30131B7C8BDBB3 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 735E591274B28B6A1F4E98FA8972D872 /* Alamofire-dummy.m */; };
+		77E8F0EB9FFBE2E3EB0C77095C644606 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F9CE386936D3AC71EA99CA5743C2D9 /* TaskDelegate.swift */; };
+		784708BBECB561B3319073D4A60A851E /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5553305B76796CB879657C8040059938 /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
+		7C0A63CAE4A3DFEB5FF026A2501D86EB /* NVActivityIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A631640B2B1E89DF5002E1F651A16 /* NVActivityIndicatorViewable.swift */; };
+		7E3538A6992A38276764936A9733493D /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99A8E9E5F705561552B33A2E3BE74C9 /* AFError.swift */; };
+		7E827949633FFF0BFB3EA0AB00E7981E /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2F3A00C43B8E56AD2EA08FFD35B04 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */; };
+		7FCB4739EC6281355FADC72171A574FE /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1D45AA4DB2495690EB58ADDEA2B9D /* SwitchCameraButton.swift */; };
+		82862AA4EC1076A840182E5C0271BF0E /* NVActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F7568B2A895B26184AF9A33AAA6D46 /* NVActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87F34F8961C6C5A82D03627E43907EED /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF65A662CBFA3891CA50F3BEF31EAA9 /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
+		88C546770279761A8EB932E1FC115A76 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E4499CA452A0084A8A6AD47F590484 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		8D2A6A90A6DDAF75EA52D471258545CC /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D6CDE32A31921A45B7FF6BAFD8E909 /* ServerTrustPolicy.swift */; };
+		9E10B0E9490B1C5BAF7AF42E0065BDD9 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704BA9F8D7F7FF1CB6DBC15935F7201 /* QRCodeReader.swift */; };
+		A1EC41966B261DCE460BCDE5124A1DBE /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CFDC87C847B7E70033B49B33058843 /* SessionDelegate.swift */; };
+		A6271908171BCC85FE14E495BDC75DD4 /* QRCodeReader.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 686AE1BE869BCA890656DCD70F15630C /* QRCodeReader.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A88490697960FB99AE0B0393476C6F06 /* Pods-httpMethod_class_exeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEFEA9D63E96B8982E12544D8797DEC6 /* Pods-httpMethod_class_exeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA56769D8733D3F3E7976742D5ABA998 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46DD173CDE12A90BFFF902187FDE3E /* Validation.swift */; };
-		AEA829AB1A8AF2AD077A808AED6B178A /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64186D72F03CF307B2AB66039801A7F /* MultipartFormData.swift */; };
-		B6F6E4CC26451E91B59FAE0F6841DC1F /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89BE8A99C5333C7577173223ABC06B80 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDBCFC743FB9943826F18A175C83DF08 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB10ABEAC4D0609C1673B47C0C1DF25B /* DLRadioButton.m */; };
-		CB38C724AC407F50CCABE38BA2751DD1 /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC82D4830246A9E7714D01EF8960BA8 /* QRCodeReaderViewControllerDelegate.swift */; };
-		CECD6E760FE3C8E47B16BDAFFF49C393 /* QRCodeReader.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAF0B5CF5DB9D755388470E0D56596A /* QRCodeReader.swift-dummy.m */; };
-		D2116209463E4BDBB348F5E78C6F5CB0 /* Pods-httpMethod_class_exe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6656326B82624F02B1FF17B22BE0ADC2 /* Pods-httpMethod_class_exe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3FA0AA634AAEA99AB3FABC36BB4958C /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19397C07EC27B87611EF4A2383B6D82 /* SessionManager.swift */; };
+		AA56769D8733D3F3E7976742D5ABA998 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3411530685925371AFDDA6FA8C2EFEFE /* Validation.swift */; };
+		AABB4EE784BA4D6DD524BC87719A26DD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3D32BF116ED7B83AC958F2B2358F3C /* AVFoundation.framework */; };
+		AEA829AB1A8AF2AD077A808AED6B178A /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461413D6773057B97E414F719551F13B /* MultipartFormData.swift */; };
+		B048A0248C6A985F309E11A45BC5B092 /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8400CA89F56F65172BD8F4B6C02FFDC /* QRCodeReaderViewControllerDelegate.swift */; };
+		B6F6E4CC26451E91B59FAE0F6841DC1F /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B88E414296E5439718E0341BF0DA0EF4 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7DD9E55C13191ABF50159BFF1964F76 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83480AB5936824FB217056D43C1DE348 /* NVActivityIndicatorAnimationBallRotate.swift */; };
+		BABDEEA0E400185112FC54048CFAEE33 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28E748AE2CBA47ABB24CF71A593F002 /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
+		BBE0890CA1E7E3C13426610AAA119F43 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD7B3E1627D9367258DCE958CBD2B0D /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		BC59C9BA5294955D1819544A33CCCAC1 /* Pods-httpMethod_class_exe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9743D4CBABAC13FF79399156C20240 /* Pods-httpMethod_class_exe-dummy.m */; };
+		BDBCFC743FB9943826F18A175C83DF08 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 919582DB8BC3BF6D6E818E239EE63A54 /* DLRadioButton.m */; };
+		C3CDFE14B71893B7CB729FE8CD774898 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DF10A2FA430DE453A6CE232BE3C608 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		C60F73220347E85F47C584A1B13EA82D /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724F3C92097092805CE7AC974B924C7F /* ToggleTorchButton.swift */; };
+		C633F0F7DE4216D4DE2C5F310A087DC1 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA492AA70BE3982453B03BB8F18BC40 /* QRCodeReaderViewController.swift */; };
+		CE4A42C71FB0A896E776CF9EC7BB1509 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F273402872B9EABB86058346BE8C253 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
+		D37527398E12D52F839C0C9973775170 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0991A908AAB7FF67828F5F48CCADF83F /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		D38B7844BB5E179AB653102430112F55 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E22CE78D31FCDC064861C7EF74F2C9E /* NVActivityIndicatorAnimationBallScale.swift */; };
+		D3FA0AA634AAEA99AB3FABC36BB4958C /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43F158ABE5B4843D4FA4B4885369DE5 /* SessionManager.swift */; };
 		D4AB31F77AE5E1E13BBA30358D0C407E /* Pods-httpMethod_class_exeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D8F45A56C97AF4F49C1A60623BA99D /* Pods-httpMethod_class_exeTests-dummy.m */; };
-		D834DEE2BF19515890B6CD82917E6FCE /* QRCodeReader.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABDA20E6D9C74BD2F1946FA6141D88B4 /* QRCodeReader.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E274AD58903EC1747DD90FC12BAF853F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */; };
-		EB0DD8CEA1A69867A30267439C970440 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E60E5072EA1D15299F693E85580BC1C /* Result.swift */; };
-		F736A03C37C21EB5B67C3F71D36EB7C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */; };
-		FED928FEC82C7BF9E9EFC1CECE84E897 /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A13AAAD1A8727C33D01ABA3FAC9B1A12 /* DLRadioButton-dummy.m */; };
+		D5E044D8443D80A34DF2626AFB87FF73 /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE048CD4D6C08C7B9E3A69783DFDBC6 /* NVActivityIndicatorAnimationLineScale.swift */; };
+		D62F3F1D3C2FEF3FF373FC98C9EE38E9 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1877087290430396C0A77639660FF20 /* NVActivityIndicatorAnimationBallPulse.swift */; };
+		D7939CCB7D607B840E329C823E3C719C /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143E6F44F71A0B12B1E84E46607EFF0B /* NVActivityIndicatorAnimationBlank.swift */; };
+		DB1E9B160B4DBD103B933A5619F5ABE5 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DAE2958C97EAAEEE4F1E66E8A4C6F1 /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
+		DDE307664FA93D696E71ADD1D74C7F37 /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C8655F21F259448242ED58B080E9D5 /* NVActivityIndicatorView.swift */; };
+		E274AD58903EC1747DD90FC12BAF853F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE521BF0526F4E213F6CFAD9245487F /* Foundation.framework */; };
+		E85C43B65C95128C5BDA0F48599FEE35 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6158D141C3EE8C7C52A55221FEF1B2 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		EA2DA91D33FC951D0B134E9EBD494ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE521BF0526F4E213F6CFAD9245487F /* Foundation.framework */; };
+		EB0DD8CEA1A69867A30267439C970440 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F389F61E4C790EEBA794A6272EFAEB2 /* Result.swift */; };
+		EB17CB748BB65A6322F7DD42DFCD2940 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D9D03A35847A008CFB2B93A0EBFC1B /* ReaderOverlayView.swift */; };
+		F47C7B7A22E39AEFC60CDC340315787A /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED1D7D15BB49A85A38CB0F901052E12 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
+		F736A03C37C21EB5B67C3F71D36EB7C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE521BF0526F4E213F6CFAD9245487F /* Foundation.framework */; };
+		F93A7D854E9DE74090AE78651377004B /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62332708502E02938E9B21782519CB0 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		FB131729142F17BF9DB8D2EA110EC4D4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8D6F0BF90888F5955C5EF90EC8187 /* QuartzCore.framework */; };
+		FED928FEC82C7BF9E9EFC1CECE84E897 /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BD3AA9DA9F2F81C2D8B06111079C71 /* DLRadioButton-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B3D81B96E3A03EFA5B3040D03E9025E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C3FB7463142DC81B905592306EE1AF4;
-			remoteInfo = "Pods-httpMethod_class_exe";
-		};
-		B5E80F5C87AD5BE096E5DC959664BD6E /* PBXContainerItemProxy */ = {
+		443B64B0175A2C1F1355C1BB97D152EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3383968E74B5371B20BB519B170DC7FD;
 			remoteInfo = Alamofire;
 		};
-		EE44CD4F8C88013DC5D475962E0CE49C /* PBXContainerItemProxy */ = {
+		5B3D81B96E3A03EFA5B3040D03E9025E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5C821EC067AFDCFCFE4ADDFF319A8E;
+			remoteInfo = "Pods-httpMethod_class_exe";
+		};
+		841CAD2EAC7255F3D6C588141FAB61D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54B1439EA0C8737E1BAF1F8CEF27B62C;
+			remoteInfo = NVActivityIndicatorView;
+		};
+		D26D74BCD4011B2371781B9CCE447BE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -83,117 +134,167 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0C3FB7463142DC81B905592306EE1AF4;
+			remoteGlobalIDString = EA5C821EC067AFDCFCFE4ADDFF319A8E;
 			remoteInfo = "Pods-httpMethod_class_exe";
 		};
-		FBB85C19AF296318EDF8E8B94C4C97F9 /* PBXContainerItemProxy */ = {
+		F3C2E96855473B6E5DF8531D0F2D7446 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A3DF29F578D0404889F728ABDD6C44DC;
+			remoteGlobalIDString = 4E11A787104BC65F404802E6943217A0;
 			remoteInfo = QRCodeReader.swift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00F105EA0A2EDBF95DE520F4FFC8B446 /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
 		07E00D88C864687D87F2E05D85D29938 /* Pods-httpMethod_class_exeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-httpMethod_class_exeUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		0ACE7A33D06287A69606DAADA9AE4EDE /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		13660F2B2C409E46786012F896296D84 /* Pods_httpMethod_class_exe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_httpMethod_class_exe.framework; path = "Pods-httpMethod_class_exe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ADC1A12377C20397BA9A6614E410339 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		1E9966F15149A30C095D13C515CB064C /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		1F8B8309FA987A83056B5A06CABD7C60 /* ReaderOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = Sources/ReaderOverlayView.swift; sourceTree = "<group>"; };
+		08DAE2958C97EAAEEE4F1E66E8A4C6F1 /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		0972ADE0683530A79ED13A66FBAF6561 /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLRadioButton.framework; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0991A908AAB7FF67828F5F48CCADF83F /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		0ADBE3EA06A702F24AA799C9CD62FFB6 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C5A0300578CB729BE99D3FC85975CD /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
+		110053D8E7BACBC35B4D3899786B63D3 /* NVActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		12F25D90123912F96114AA020951A6E8 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		13E41BCACAA3901E4CC80343177F8AB2 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		143E6F44F71A0B12B1E84E46607EFF0B /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
+		1D1362166B63E19A9E63596BDD8DB697 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		21C8655F21F259448242ED58B080E9D5 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
+		22AB1291306F59B32ED35BEB47540F2E /* Pods_httpMethod_class_exe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_httpMethod_class_exe.framework; path = "Pods-httpMethod_class_exe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2858FCE4985024FDA007BC8DB201E750 /* Pods-httpMethod_class_exe-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-httpMethod_class_exe-acknowledgements.plist"; sourceTree = "<group>"; };
-		28FAF48705C9B5E01278EEA6B8ECA57B /* QRCodeReader.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-prefix.pch"; sourceTree = "<group>"; };
+		2BE048CD4D6C08C7B9E3A69783DFDBC6 /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
+		2CA492AA70BE3982453B03BB8F18BC40 /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewController.swift; path = Sources/QRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		2EED6F4A2D9FFFA1C0B02A68C84D7241 /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationOrbit.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
 		2FA0BD018F18DBBC1117B977FB29E3BD /* Pods-httpMethod_class_exe-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-httpMethod_class_exe-Info.plist"; sourceTree = "<group>"; };
-		32F608A16E0B6943508764CAE7325348 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		318398F4767D710F48D1B8FA24D58FED /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		3411530685925371AFDDA6FA8C2EFEFE /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		35E275F586C6DB95DCC3EC016E63F762 /* Pods-httpMethod_class_exeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-httpMethod_class_exeTests.modulemap"; sourceTree = "<group>"; };
-		38DF6C74A523E70420F076602015A240 /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLRadioButton.framework; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		362A631640B2B1E89DF5002E1F651A16 /* NVActivityIndicatorViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorViewable.swift; path = Source/NVActivityIndicatorView/Presenter/NVActivityIndicatorViewable.swift; sourceTree = "<group>"; };
 		3C8362066CF9F3E15DD6ED5DD166C1F5 /* Pods-httpMethod_class_exeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-httpMethod_class_exeTests-umbrella.h"; sourceTree = "<group>"; };
 		3D4492467972FAA4F7AC427CAC228CCC /* Pods-httpMethod_class_exeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-httpMethod_class_exeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4740814E8883D10E4D9E90400540A46D /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = Sources/QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		3D9E700DBA96FC48F7E23246AF02A3A6 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		3DAB6D7A9D665F3D7F01D7A5E7F8EAF8 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		4263C89F14E28AD7A05C5B96A789AB0D /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		44D5961CA8AA0B67D7982CBB2F987FDB /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = Sources/QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		461413D6773057B97E414F719551F13B /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		470304CEF7DA0AE8B564F4EEBCD45252 /* QRCodeReader.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCodeReader.swift.modulemap; sourceTree = "<group>"; };
+		470EF03820D2FABF86190574E0737DB8 /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewContainer.swift; path = Sources/QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
 		48397A4FCCBD6B6D34DB7F81555A750F /* Pods-httpMethod_class_exeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-httpMethod_class_exeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4869151D8EEB10858339B3694876B56F /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		48CB67CA513C5B3AA6B7F43ACC88F865 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		4BF5CAE01B7350CDFFCF1FEEA4CC1293 /* QRCodeReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = Sources/QRCodeReader.swift; sourceTree = "<group>"; };
-		4DB3296B0DD3CAC11066CDB3B91715F2 /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewContainer.swift; path = Sources/QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
+		48F7568B2A895B26184AF9A33AAA6D46 /* NVActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		4A40754F2EC29A5AFAAB518BD5367280 /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCodeReader.framework; path = QRCodeReader.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A88590E3A0AD655A94721C40175C28F /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		4FFB70A5F297421CE39976AE48097345 /* QRCodeReader.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReader.swift.xcconfig; sourceTree = "<group>"; };
+		5553305B76796CB879657C8040059938 /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		569A4D8F5BA08EB936B4F3B0A94A4DB3 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		569E62322529F7D0FB447E60BED2DA02 /* Pods-httpMethod_class_exeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-httpMethod_class_exeTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5A2BB64CE05EBF4489E17480850F572C /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		5E60E5072EA1D15299F693E85580BC1C /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		5FEC252A44E7C62FCCDFEE212FD2DBE6 /* DLRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DLRadioButton-Info.plist"; sourceTree = "<group>"; };
-		60E4586503EAB783CB3B9DFFCE043EC5 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		628F0BFA7D93CCCBE6FDD0B296B3CC93 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		5BF65A662CBFA3891CA50F3BEF31EAA9 /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
+		5E22CE78D31FCDC064861C7EF74F2C9E /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
+		5F273402872B9EABB86058346BE8C253 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCircleStrokeSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
+		5F8C99C9A1EA82A4AEDB8CC8D970DF75 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		61F9CE386936D3AC71EA99CA5743C2D9 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		63F8D6F0BF90888F5955C5EF90EC8187 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		6656326B82624F02B1FF17B22BE0ADC2 /* Pods-httpMethod_class_exe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-httpMethod_class_exe-umbrella.h"; sourceTree = "<group>"; };
+		66A6D20F3C629B9B8128A776CFD4FEBB /* NVActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NVActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		686AE1BE869BCA890656DCD70F15630C /* QRCodeReader.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-umbrella.h"; sourceTree = "<group>"; };
 		6AEF7BD04B86AD56CC17882EA5C93222 /* Pods-httpMethod_class_exeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-httpMethod_class_exeTests-Info.plist"; sourceTree = "<group>"; };
-		6B7EF7817ADC4AB124C70D86197295C4 /* Pods_httpMethod_class_exeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_httpMethod_class_exeTests.framework; path = "Pods-httpMethod_class_exeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FC82D4830246A9E7714D01EF8960BA8 /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerDelegate.swift; path = Sources/QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
-		71DC474BCCC4691299E4671037E85A81 /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerBuilder.swift; path = Sources/QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
+		6CA2F3A00C43B8E56AD2EA08FFD35B04 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallDoubleBounce.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallDoubleBounce.swift; sourceTree = "<group>"; };
+		724F3C92097092805CE7AC974B924C7F /* ToggleTorchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = Sources/ToggleTorchButton.swift; sourceTree = "<group>"; };
 		727AFF111F9296F7DF3CA3F47DB45FF2 /* Pods-httpMethod_class_exe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-httpMethod_class_exe.release.xcconfig"; sourceTree = "<group>"; };
 		72A4C7CEE60B56831C3B38AAF898ACAA /* Pods-httpMethod_class_exeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-httpMethod_class_exeTests.release.xcconfig"; sourceTree = "<group>"; };
 		72D8F45A56C97AF4F49C1A60623BA99D /* Pods-httpMethod_class_exeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-httpMethod_class_exeTests-dummy.m"; sourceTree = "<group>"; };
+		735E591274B28B6A1F4E98FA8972D872 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		75B7B9276583C1C7DBA5B439EECECBDB /* Pods-httpMethod_class_exe-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-httpMethod_class_exe-frameworks.sh"; sourceTree = "<group>"; };
 		75DCEF8B02E3094419909510B7578021 /* Pods-httpMethod_class_exe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-httpMethod_class_exe.modulemap"; sourceTree = "<group>"; };
-		7D46DD173CDE12A90BFFF902187FDE3E /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		7FA4EC2C93ECCBEACCB229266EE6BF68 /* QRCodeReader.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCodeReader.swift.modulemap; sourceTree = "<group>"; };
-		82B360A0A553B003A1A4A673FF382F7C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89BE8A99C5333C7577173223ABC06B80 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		7916B6EEFC8567D8EAE28E2BB4B5FF7D /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		7921885E5E496C4DC82DDD870C9B4C1F /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		7C6158D141C3EE8C7C52A55221FEF1B2 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
+		7EA4539EE0425D9D4A50D25BA0603E4D /* DLRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.xcconfig; sourceTree = "<group>"; };
+		80CFDC87C847B7E70033B49B33058843 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		81CEBBD1B330651112F55F506C655FA8 /* Pods_httpMethod_class_exeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_httpMethod_class_exeUITests.framework; path = "Pods-httpMethod_class_exeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83480AB5936824FB217056D43C1DE348 /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		87A196405BB52549365CCB45794AFA2C /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		88D4CE0FD208CB5C730D31F09C37C942 /* NVActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorPresenter.swift; path = Source/NVActivityIndicatorView/Presenter/NVActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
+		88DF10A2FA430DE453A6CE232BE3C608 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
 		8A5F5E53EE144FAD90A84FB831E05176 /* Pods-httpMethod_class_exe-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-httpMethod_class_exe-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8C8FCF8458A54C3D17B0DB0D895E8D06 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		8F7E608901B168089B3367299013BE1C /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		8F8B077304B6FAD57228480E9C187D59 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		9547FFD4BA34FBF1C2A211F69EFF666E /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		9775F372F32F38C2D346161F0BD7F185 /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
-		9BAC680A84C7AEAF4264E5FD07A8594A /* DLRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.xcconfig; sourceTree = "<group>"; };
-		9BAF0B5CF5DB9D755388470E0D56596A /* QRCodeReader.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReader.swift-dummy.m"; sourceTree = "<group>"; };
+		8C22DF3C46BB3F592A87C29A8D872637 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		8C34F24D621F7149E4AA7910CB92FBE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8DCB7705DA8E0E0C12928B41C4A77557 /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		8F389F61E4C790EEBA794A6272EFAEB2 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		919582DB8BC3BF6D6E818E239EE63A54 /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
+		933311F0076A49352A8A6DAFB4B6E677 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		99F2EF7040B6D738B194F25D355A960F /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		9A3D32BF116ED7B83AC958F2B2358F3C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DA88381561ECAE2BBAD662ADB34A37A /* Pods-httpMethod_class_exeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-httpMethod_class_exeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A13AAAD1A8727C33D01ABA3FAC9B1A12 /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
+		9E3EDB14D097ADE31ADE0B7EFD4CE5B8 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		9F48F18C2DC2E91875476FBA9B303995 /* QRCodeReaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderView.swift; path = Sources/QRCodeReaderView.swift; sourceTree = "<group>"; };
 		A6227F1531B967147A0FB19682C2CEFD /* Pods-httpMethod_class_exeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-httpMethod_class_exeUITests-Info.plist"; sourceTree = "<group>"; };
-		A8BFA4403D40F789428BCF6552B54C76 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		A90976B0231EF4C80D74D8052D900F5E /* SwitchCameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = Sources/SwitchCameraButton.swift; sourceTree = "<group>"; };
+		A704BA9F8D7F7FF1CB6DBC15935F7201 /* QRCodeReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = Sources/QRCodeReader.swift; sourceTree = "<group>"; };
+		A9B018483AB89B5F9D1EE5D910D00C04 /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
 		AB9743D4CBABAC13FF79399156C20240 /* Pods-httpMethod_class_exe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-httpMethod_class_exe-dummy.m"; sourceTree = "<group>"; };
-		ABDA20E6D9C74BD2F1946FA6141D88B4 /* QRCodeReader.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-umbrella.h"; sourceTree = "<group>"; };
-		AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AC533CDD2653466DE35B0EBB56BFE13F /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
 		AEFEA9D63E96B8982E12544D8797DEC6 /* Pods-httpMethod_class_exeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-httpMethod_class_exeUITests-umbrella.h"; sourceTree = "<group>"; };
-		B0A3ECF32F7E406A23836F75F57547D0 /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewController.swift; path = Sources/QRCodeReaderViewController.swift; sourceTree = "<group>"; };
-		C000F880C0D5D72C570AB008BB7EC19D /* Pods_httpMethod_class_exeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_httpMethod_class_exeUITests.framework; path = "Pods-httpMethod_class_exeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BD3AA9DA9F2F81C2D8B06111079C71 /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
+		B343C6C8CEAB78CA3E64FFEDF2865566 /* Pods_httpMethod_class_exeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_httpMethod_class_exeTests.framework; path = "Pods-httpMethod_class_exeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88E414296E5439718E0341BF0DA0EF4 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		B8D6EF75011E32DF97459E871C65F547 /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		B99A8E9E5F705561552B33A2E3BE74C9 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		BA0C3CF42BA84A43C55FE705F0AE1AE5 /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		C0A0BF6D0ECF93833E095973E9F415F8 /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
+		C21F7BB043465FD8B496CDF47BD7EA99 /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
 		C3E48CCCF561C9A52B894E2D39A7874F /* Pods-httpMethod_class_exeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-httpMethod_class_exeUITests-dummy.m"; sourceTree = "<group>"; };
+		C5C23B935E466D935112D2E49ECD9A29 /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
 		C5F25C9C1F896ED5631892AB5B0A1067 /* Pods-httpMethod_class_exe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-httpMethod_class_exe.debug.xcconfig"; sourceTree = "<group>"; };
-		C808EED58EA384CF5A84A7D463AB66CD /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		CB10ABEAC4D0609C1673B47C0C1DF25B /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
-		CE69C9CA04D98F5B0F6FB100E1E97E98 /* QRCodeReader.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QRCodeReader.swift-Info.plist"; sourceTree = "<group>"; };
-		D64186D72F03CF307B2AB66039801A7F /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		DD45D279B5209B5773FC1F6421F97FA5 /* ToggleTorchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = Sources/ToggleTorchButton.swift; sourceTree = "<group>"; };
-		DE8D5E35BB58FA11AD7F617FCA01AEE7 /* QRCodeReaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderView.swift; path = Sources/QRCodeReaderView.swift; sourceTree = "<group>"; };
+		C71469C248830BE65DE99B19F2C7161F /* QRCodeReader.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReader.swift-dummy.m"; sourceTree = "<group>"; };
+		C8DC99BB4F8D8984E4CFBA5F8BDB58E8 /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		C8FC7F4C560D7F3E069BA6226400B787 /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
+		CAD7B3E1627D9367258DCE958CBD2B0D /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		CAE521BF0526F4E213F6CFAD9245487F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCD53044CF56478A101961F2054EEE1B /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		D3C336ED8629198671F2E4760DA3CA8E /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
+		D8363F84955946683AD76C5B89C38FD6 /* DLRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DLRadioButton-Info.plist"; sourceTree = "<group>"; };
 		DEB053A823FABCF2ADF14F956C068BBB /* Pods-httpMethod_class_exeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-httpMethod_class_exeUITests.modulemap"; sourceTree = "<group>"; };
-		DF365ED0EB0E02B5D88FC3AAE9A0287E /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		E42A3950FB7EF027FD838C90B8A425CF /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		DED1D7D15BB49A85A38CB0F901052E12 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
+		DF1B94128CBB65A92FCA1033888E5B9B /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
+		E0D9D03A35847A008CFB2B93A0EBFC1B /* ReaderOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = Sources/ReaderOverlayView.swift; sourceTree = "<group>"; };
+		E1877087290430396C0A77639660FF20 /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		E28E748AE2CBA47ABB24CF71A593F002 /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		E2D6CDE32A31921A45B7FF6BAFD8E909 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		E43F158ABE5B4843D4FA4B4885369DE5 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		E62332708502E02938E9B21782519CB0 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
 		E7000C7B22259E6E7F46D42E2C3367B4 /* Pods-httpMethod_class_exeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-httpMethod_class_exeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E784CE6511F721BB642A94F734853E7D /* Pods-httpMethod_class_exeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-httpMethod_class_exeUITests.release.xcconfig"; sourceTree = "<group>"; };
-		E86106007706DC6229D1A89141E55D3E /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCodeReader.framework; path = QRCodeReader.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDFE5B9C57DFDA35AA79DBD342FD43AC /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		F19397C07EC27B87611EF4A2383B6D82 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		F5D475CDF744E7398542987FA3D500E8 /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
-		F910E2C5BD4E47F3724F3CD75DE1B2AB /* QRCodeReader.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReader.swift.xcconfig; sourceTree = "<group>"; };
-		FDB1803BD13748BE27B95ADD99281DAE /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		FEAB86898E4D0AB525F7F479C7EB9DF8 /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		E8E4499CA452A0084A8A6AD47F590484 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
+		EA4FF1CF4AAAE3177BCC680B3564EC1F /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerBuilder.swift; path = Sources/QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
+		EB8ED33CBA70EF890BB253E6C0B7ACFA /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
+		EEAD80B2E8600F9609907833D7AB9A66 /* QRCodeReader.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-prefix.pch"; sourceTree = "<group>"; };
+		EEF1D45AA4DB2495690EB58ADDEA2B9D /* SwitchCameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = Sources/SwitchCameraButton.swift; sourceTree = "<group>"; };
+		F621CC8921BE4DFC5DDC9AE90A915C05 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NVActivityIndicatorView.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6351482B4AD92D924ABAA24B74B7579 /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		F64A51058A63948FDB56801F1B5EB7D3 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		F8400CA89F56F65172BD8F4B6C02FFDC /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerDelegate.swift; path = Sources/QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
+		F9CCDA4C479005F0E6263575BAE20E50 /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		FBF9A9AEE7F38F8D199EF15A36001D3A /* QRCodeReader.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QRCodeReader.swift-Info.plist"; sourceTree = "<group>"; };
+		FD6353948D50D72CDBF00153A7EA96B7 /* NVActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
+		FE304C4134067B37D3AC3BBC662F031E /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15F747F972C0CF98769A02EA8FA6C0BF /* Frameworks */ = {
+		907C9B6973FF982F5A728DCC26F74119 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50A74FEE0E800B8D0DD94DBC15CDB70A /* Foundation.framework in Frameworks */,
+				EA2DA91D33FC951D0B134E9EBD494ED8 /* Foundation.framework in Frameworks */,
+				FB131729142F17BF9DB8D2EA110EC4D4 /* QuartzCore.framework in Frameworks */,
+				71734AC4FE7D42D2087361E9E826834C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79A727989064977702260308FA06DEF6 /* Frameworks */ = {
+		907F2E62E9A55AE7FAD2EAA8DE1C7A8D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F87EC70D23DBF1E07D4D66CF65F6B9E /* AVFoundation.framework in Frameworks */,
-				47172927E80135EEE9FA59424FFA031B /* Foundation.framework in Frameworks */,
+				AABB4EE784BA4D6DD524BC87719A26DD /* AVFoundation.framework in Frameworks */,
+				6E3EC73326F49D2505E4797474826340 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +303,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CAD82EE6CF9B14CFE6D9D263A01349E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F185CDBF3297C800DF3391C4087CA97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F124B1DAB41BF6275A0A851B799DBA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,62 +341,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		108EC7E58E1DFEA200D6B0BFE19B6A64 /* Support Files */ = {
+		0D3BEC0209758A542244B517CDA79B70 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7FA4EC2C93ECCBEACCB229266EE6BF68 /* QRCodeReader.swift.modulemap */,
-				F910E2C5BD4E47F3724F3CD75DE1B2AB /* QRCodeReader.swift.xcconfig */,
-				9BAF0B5CF5DB9D755388470E0D56596A /* QRCodeReader.swift-dummy.m */,
-				CE69C9CA04D98F5B0F6FB100E1E97E98 /* QRCodeReader.swift-Info.plist */,
-				28FAF48705C9B5E01278EEA6B8ECA57B /* QRCodeReader.swift-prefix.pch */,
-				ABDA20E6D9C74BD2F1946FA6141D88B4 /* QRCodeReader.swift-umbrella.h */,
+				7921885E5E496C4DC82DDD870C9B4C1F /* NVActivityIndicatorView.modulemap */,
+				FD6353948D50D72CDBF00153A7EA96B7 /* NVActivityIndicatorView.xcconfig */,
+				110053D8E7BACBC35B4D3899786B63D3 /* NVActivityIndicatorView-dummy.m */,
+				66A6D20F3C629B9B8128A776CFD4FEBB /* NVActivityIndicatorView-Info.plist */,
+				C8DC99BB4F8D8984E4CFBA5F8BDB58E8 /* NVActivityIndicatorView-prefix.pch */,
+				48F7568B2A895B26184AF9A33AAA6D46 /* NVActivityIndicatorView-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/QRCodeReader.swift";
+			path = "../Target Support Files/NVActivityIndicatorView";
 			sourceTree = "<group>";
 		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		1A5AC24E4AC3805240F7A5D03CB4B53F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E2FA75308FAE7D777CB172FB0AE44E3A /* iOS */,
+				10C5A0300578CB729BE99D3FC85975CD /* DLRadioButton.modulemap */,
+				7EA4539EE0425D9D4A50D25BA0603E4D /* DLRadioButton.xcconfig */,
+				B2BD3AA9DA9F2F81C2D8B06111079C71 /* DLRadioButton-dummy.m */,
+				D8363F84955946683AD76C5B89C38FD6 /* DLRadioButton-Info.plist */,
+				C0A0BF6D0ECF93833E095973E9F415F8 /* DLRadioButton-prefix.pch */,
+				4263C89F14E28AD7A05C5B96A789AB0D /* DLRadioButton-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/DLRadioButton";
 			sourceTree = "<group>";
 		};
-		43DE1B8B1D3E64E9396FF6C6F264DC2F /* Pods */ = {
+		34B6BCC8707A8F010CFD3BA88C213797 /* DLRadioButton */ = {
 			isa = PBXGroup;
 			children = (
-				4E2FFB62CA58EEDD95FC1698F8C7A8A9 /* Alamofire */,
-				ACB4C4FCAE574881E80A086E37F64E39 /* DLRadioButton */,
-				5B0E1B8286FFC95130B3A3FA45B89FD0 /* QRCodeReader.swift */,
+				D3C336ED8629198671F2E4760DA3CA8E /* DLRadioButton.h */,
+				919582DB8BC3BF6D6E818E239EE63A54 /* DLRadioButton.m */,
+				1A5AC24E4AC3805240F7A5D03CB4B53F /* Support Files */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		4E2FFB62CA58EEDD95FC1698F8C7A8A9 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				EDFE5B9C57DFDA35AA79DBD342FD43AC /* AFError.swift */,
-				FDB1803BD13748BE27B95ADD99281DAE /* Alamofire.swift */,
-				60E4586503EAB783CB3B9DFFCE043EC5 /* DispatchQueue+Alamofire.swift */,
-				D64186D72F03CF307B2AB66039801A7F /* MultipartFormData.swift */,
-				48CB67CA513C5B3AA6B7F43ACC88F865 /* NetworkReachabilityManager.swift */,
-				4869151D8EEB10858339B3694876B56F /* Notifications.swift */,
-				5A2BB64CE05EBF4489E17480850F572C /* ParameterEncoding.swift */,
-				1E9966F15149A30C095D13C515CB064C /* Request.swift */,
-				8F7E608901B168089B3367299013BE1C /* Response.swift */,
-				E42A3950FB7EF027FD838C90B8A425CF /* ResponseSerialization.swift */,
-				5E60E5072EA1D15299F693E85580BC1C /* Result.swift */,
-				628F0BFA7D93CCCBE6FDD0B296B3CC93 /* ServerTrustPolicy.swift */,
-				1ADC1A12377C20397BA9A6614E410339 /* SessionDelegate.swift */,
-				F19397C07EC27B87611EF4A2383B6D82 /* SessionManager.swift */,
-				DF365ED0EB0E02B5D88FC3AAE9A0287E /* TaskDelegate.swift */,
-				C808EED58EA384CF5A84A7D463AB66CD /* Timeline.swift */,
-				7D46DD173CDE12A90BFFF902187FDE3E /* Validation.swift */,
-				82AE8F365641C6C40519CA7A07FCBDED /* Support Files */,
-			);
-			name = Alamofire;
-			path = Alamofire;
+			name = DLRadioButton;
+			path = DLRadioButton;
 			sourceTree = "<group>";
 		};
 		5111636E27593BA29F0C81240AAA6FC3 /* Targets Support Files */ = {
@@ -300,37 +390,72 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5B0E1B8286FFC95130B3A3FA45B89FD0 /* QRCodeReader.swift */ = {
+		54BFA968F553EE2E06245C2F37D20DFD /* NVActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				4BF5CAE01B7350CDFFCF1FEEA4CC1293 /* QRCodeReader.swift */,
-				4740814E8883D10E4D9E90400540A46D /* QRCodeReaderResult.swift */,
-				DE8D5E35BB58FA11AD7F617FCA01AEE7 /* QRCodeReaderView.swift */,
-				4DB3296B0DD3CAC11066CDB3B91715F2 /* QRCodeReaderViewContainer.swift */,
-				B0A3ECF32F7E406A23836F75F57547D0 /* QRCodeReaderViewController.swift */,
-				71DC474BCCC4691299E4671037E85A81 /* QRCodeReaderViewControllerBuilder.swift */,
-				6FC82D4830246A9E7714D01EF8960BA8 /* QRCodeReaderViewControllerDelegate.swift */,
-				1F8B8309FA987A83056B5A06CABD7C60 /* ReaderOverlayView.swift */,
-				A90976B0231EF4C80D74D8052D900F5E /* SwitchCameraButton.swift */,
-				DD45D279B5209B5773FC1F6421F97FA5 /* ToggleTorchButton.swift */,
-				108EC7E58E1DFEA200D6B0BFE19B6A64 /* Support Files */,
+				BB837228540542AEC4081418B44055C6 /* Presenter */,
+				0D3BEC0209758A542244B517CDA79B70 /* Support Files */,
 			);
-			name = QRCodeReader.swift;
-			path = QRCodeReader.swift;
+			name = NVActivityIndicatorView;
+			path = NVActivityIndicatorView;
 			sourceTree = "<group>";
 		};
-		82AE8F365641C6C40519CA7A07FCBDED /* Support Files */ = {
+		62C39A0D240280561E46175A8A6CCF6A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9547FFD4BA34FBF1C2A211F69EFF666E /* Alamofire.modulemap */,
-				8C8FCF8458A54C3D17B0DB0D895E8D06 /* Alamofire.xcconfig */,
-				0ACE7A33D06287A69606DAADA9AE4EDE /* Alamofire-dummy.m */,
-				32F608A16E0B6943508764CAE7325348 /* Alamofire-Info.plist */,
-				A8BFA4403D40F789428BCF6552B54C76 /* Alamofire-prefix.pch */,
-				89BE8A99C5333C7577173223ABC06B80 /* Alamofire-umbrella.h */,
+				470304CEF7DA0AE8B564F4EEBCD45252 /* QRCodeReader.swift.modulemap */,
+				4FFB70A5F297421CE39976AE48097345 /* QRCodeReader.swift.xcconfig */,
+				C71469C248830BE65DE99B19F2C7161F /* QRCodeReader.swift-dummy.m */,
+				FBF9A9AEE7F38F8D199EF15A36001D3A /* QRCodeReader.swift-Info.plist */,
+				EEAD80B2E8600F9609907833D7AB9A66 /* QRCodeReader.swift-prefix.pch */,
+				686AE1BE869BCA890656DCD70F15630C /* QRCodeReader.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QRCodeReader.swift";
+			sourceTree = "<group>";
+		};
+		7034C6DC28A0CEB2E3E3E19F4BA51429 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9A3D32BF116ED7B83AC958F2B2358F3C /* AVFoundation.framework */,
+				CAE521BF0526F4E213F6CFAD9245487F /* Foundation.framework */,
+				63F8D6F0BF90888F5955C5EF90EC8187 /* QuartzCore.framework */,
+				8C34F24D621F7149E4AA7910CB92FBE1 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7559DB5B462A83AA0D2B132F684E7607 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87A196405BB52549365CCB45794AFA2C /* Alamofire.modulemap */,
+				3D9E700DBA96FC48F7E23246AF02A3A6 /* Alamofire.xcconfig */,
+				735E591274B28B6A1F4E98FA8972D872 /* Alamofire-dummy.m */,
+				1D1362166B63E19A9E63596BDD8DB697 /* Alamofire-Info.plist */,
+				F64A51058A63948FDB56801F1B5EB7D3 /* Alamofire-prefix.pch */,
+				B88E414296E5439718E0341BF0DA0EF4 /* Alamofire-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		88C8B368D81DC864422C52D40FADCFA6 /* QRCodeReader.swift */ = {
+			isa = PBXGroup;
+			children = (
+				A704BA9F8D7F7FF1CB6DBC15935F7201 /* QRCodeReader.swift */,
+				44D5961CA8AA0B67D7982CBB2F987FDB /* QRCodeReaderResult.swift */,
+				9F48F18C2DC2E91875476FBA9B303995 /* QRCodeReaderView.swift */,
+				470EF03820D2FABF86190574E0737DB8 /* QRCodeReaderViewContainer.swift */,
+				2CA492AA70BE3982453B03BB8F18BC40 /* QRCodeReaderViewController.swift */,
+				EA4FF1CF4AAAE3177BCC680B3564EC1F /* QRCodeReaderViewControllerBuilder.swift */,
+				F8400CA89F56F65172BD8F4B6C02FFDC /* QRCodeReaderViewControllerDelegate.swift */,
+				E0D9D03A35847A008CFB2B93A0EBFC1B /* ReaderOverlayView.swift */,
+				EEF1D45AA4DB2495690EB58ADDEA2B9D /* SwitchCameraButton.swift */,
+				724F3C92097092805CE7AC974B924C7F /* ToggleTorchButton.swift */,
+				62C39A0D240280561E46175A8A6CCF6A /* Support Files */,
+			);
+			name = QRCodeReader.swift;
+			path = QRCodeReader.swift;
 			sourceTree = "<group>";
 		};
 		9CFB5088A56F972EB861A2B1F1A181F5 /* Pods-httpMethod_class_exeTests */ = {
@@ -349,29 +474,109 @@
 			path = "Target Support Files/Pods-httpMethod_class_exeTests";
 			sourceTree = "<group>";
 		};
-		ACB4C4FCAE574881E80A086E37F64E39 /* DLRadioButton */ = {
+		A4A735281C64C6993AF33B1056570461 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5D475CDF744E7398542987FA3D500E8 /* DLRadioButton.h */,
-				CB10ABEAC4D0609C1673B47C0C1DF25B /* DLRadioButton.m */,
-				B3407D1214B6E8D3ABE3E6470ADA9B80 /* Support Files */,
+				0ADBE3EA06A702F24AA799C9CD62FFB6 /* Alamofire.framework */,
+				0972ADE0683530A79ED13A66FBAF6561 /* DLRadioButton.framework */,
+				F621CC8921BE4DFC5DDC9AE90A915C05 /* NVActivityIndicatorView.framework */,
+				22AB1291306F59B32ED35BEB47540F2E /* Pods_httpMethod_class_exe.framework */,
+				B343C6C8CEAB78CA3E64FFEDF2865566 /* Pods_httpMethod_class_exeTests.framework */,
+				81CEBBD1B330651112F55F506C655FA8 /* Pods_httpMethod_class_exeUITests.framework */,
+				4A40754F2EC29A5AFAAB518BD5367280 /* QRCodeReader.framework */,
 			);
-			name = DLRadioButton;
-			path = DLRadioButton;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		B3407D1214B6E8D3ABE3E6470ADA9B80 /* Support Files */ = {
+		ACC8753C14D88864D970D525A861FA62 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				00F105EA0A2EDBF95DE520F4FFC8B446 /* DLRadioButton.modulemap */,
-				9BAC680A84C7AEAF4264E5FD07A8594A /* DLRadioButton.xcconfig */,
-				A13AAAD1A8727C33D01ABA3FAC9B1A12 /* DLRadioButton-dummy.m */,
-				5FEC252A44E7C62FCCDFEE212FD2DBE6 /* DLRadioButton-Info.plist */,
-				9775F372F32F38C2D346161F0BD7F185 /* DLRadioButton-prefix.pch */,
-				FEAB86898E4D0AB525F7F479C7EB9DF8 /* DLRadioButton-umbrella.h */,
+				B99A8E9E5F705561552B33A2E3BE74C9 /* AFError.swift */,
+				4A88590E3A0AD655A94721C40175C28F /* Alamofire.swift */,
+				5F8C99C9A1EA82A4AEDB8CC8D970DF75 /* DispatchQueue+Alamofire.swift */,
+				461413D6773057B97E414F719551F13B /* MultipartFormData.swift */,
+				933311F0076A49352A8A6DAFB4B6E677 /* NetworkReachabilityManager.swift */,
+				318398F4767D710F48D1B8FA24D58FED /* Notifications.swift */,
+				569A4D8F5BA08EB936B4F3B0A94A4DB3 /* ParameterEncoding.swift */,
+				9E3EDB14D097ADE31ADE0B7EFD4CE5B8 /* Request.swift */,
+				3DAB6D7A9D665F3D7F01D7A5E7F8EAF8 /* Response.swift */,
+				12F25D90123912F96114AA020951A6E8 /* ResponseSerialization.swift */,
+				8F389F61E4C790EEBA794A6272EFAEB2 /* Result.swift */,
+				E2D6CDE32A31921A45B7FF6BAFD8E909 /* ServerTrustPolicy.swift */,
+				80CFDC87C847B7E70033B49B33058843 /* SessionDelegate.swift */,
+				E43F158ABE5B4843D4FA4B4885369DE5 /* SessionManager.swift */,
+				61F9CE386936D3AC71EA99CA5743C2D9 /* TaskDelegate.swift */,
+				8C22DF3C46BB3F592A87C29A8D872637 /* Timeline.swift */,
+				3411530685925371AFDDA6FA8C2EFEFE /* Validation.swift */,
+				7559DB5B462A83AA0D2B132F684E7607 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DLRadioButton";
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7034C6DC28A0CEB2E3E3E19F4BA51429 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB837228540542AEC4081418B44055C6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5BF65A662CBFA3891CA50F3BEF31EAA9 /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
+				F6351482B4AD92D924ABAA24B74B7579 /* NVActivityIndicatorAnimationBallBeat.swift */,
+				F9CCDA4C479005F0E6263575BAE20E50 /* NVActivityIndicatorAnimationBallClipRotate.swift */,
+				13E41BCACAA3901E4CC80343177F8AB2 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				88DF10A2FA430DE453A6CE232BE3C608 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				6CA2F3A00C43B8E56AD2EA08FFD35B04 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */,
+				E28E748AE2CBA47ABB24CF71A593F002 /* NVActivityIndicatorAnimationBallGridBeat.swift */,
+				A9B018483AB89B5F9D1EE5D910D00C04 /* NVActivityIndicatorAnimationBallGridPulse.swift */,
+				E1877087290430396C0A77639660FF20 /* NVActivityIndicatorAnimationBallPulse.swift */,
+				7916B6EEFC8567D8EAE28E2BB4B5FF7D /* NVActivityIndicatorAnimationBallPulseRise.swift */,
+				5553305B76796CB879657C8040059938 /* NVActivityIndicatorAnimationBallPulseSync.swift */,
+				83480AB5936824FB217056D43C1DE348 /* NVActivityIndicatorAnimationBallRotate.swift */,
+				BA0C3CF42BA84A43C55FE705F0AE1AE5 /* NVActivityIndicatorAnimationBallRotateChase.swift */,
+				5E22CE78D31FCDC064861C7EF74F2C9E /* NVActivityIndicatorAnimationBallScale.swift */,
+				AC533CDD2653466DE35B0EBB56BFE13F /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
+				DED1D7D15BB49A85A38CB0F901052E12 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
+				CCD53044CF56478A101961F2054EEE1B /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				CAD7B3E1627D9367258DCE958CBD2B0D /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				08DAE2958C97EAAEEE4F1E66E8A4C6F1 /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
+				8DCB7705DA8E0E0C12928B41C4A77557 /* NVActivityIndicatorAnimationBallZigZag.swift */,
+				7C6158D141C3EE8C7C52A55221FEF1B2 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				143E6F44F71A0B12B1E84E46607EFF0B /* NVActivityIndicatorAnimationBlank.swift */,
+				5F273402872B9EABB86058346BE8C253 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
+				C8FC7F4C560D7F3E069BA6226400B787 /* NVActivityIndicatorAnimationCubeTransition.swift */,
+				99F2EF7040B6D738B194F25D355A960F /* NVActivityIndicatorAnimationDelegate.swift */,
+				2BE048CD4D6C08C7B9E3A69783DFDBC6 /* NVActivityIndicatorAnimationLineScale.swift */,
+				C21F7BB043465FD8B496CDF47BD7EA99 /* NVActivityIndicatorAnimationLineScaleParty.swift */,
+				E62332708502E02938E9B21782519CB0 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
+				FE304C4134067B37D3AC3BBC662F031E /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				0991A908AAB7FF67828F5F48CCADF83F /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				2EED6F4A2D9FFFA1C0B02A68C84D7241 /* NVActivityIndicatorAnimationOrbit.swift */,
+				B8D6EF75011E32DF97459E871C65F547 /* NVActivityIndicatorAnimationPacman.swift */,
+				E8E4499CA452A0084A8A6AD47F590484 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
+				C5C23B935E466D935112D2E49ECD9A29 /* NVActivityIndicatorAnimationSquareSpin.swift */,
+				EB8ED33CBA70EF890BB253E6C0B7ACFA /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
+				88D4CE0FD208CB5C730D31F09C37C942 /* NVActivityIndicatorPresenter.swift */,
+				DF1B94128CBB65A92FCA1033888E5B9B /* NVActivityIndicatorShape.swift */,
+				21C8655F21F259448242ED58B080E9D5 /* NVActivityIndicatorView.swift */,
+				362A631640B2B1E89DF5002E1F651A16 /* NVActivityIndicatorViewable.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		BD930F4F93168F49B4DB40F249E4A92A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACC8753C14D88864D970D525A861FA62 /* Alamofire */,
+				34B6BCC8707A8F010CFD3BA88C213797 /* DLRadioButton */,
+				54BFA968F553EE2E06245C2F37D20DFD /* NVActivityIndicatorView */,
+				88C8B368D81DC864422C52D40FADCFA6 /* QRCodeReader.swift */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C2B3568B70740450833B388A516F47DF /* Pods-httpMethod_class_exe */ = {
@@ -395,33 +600,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				43DE1B8B1D3E64E9396FF6C6F264DC2F /* Pods */,
-				F2060EB70173309EDADB7C5620C47094 /* Products */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				BD930F4F93168F49B4DB40F249E4A92A /* Pods */,
+				A4A735281C64C6993AF33B1056570461 /* Products */,
 				5111636E27593BA29F0C81240AAA6FC3 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		E2FA75308FAE7D777CB172FB0AE44E3A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				8F8B077304B6FAD57228480E9C187D59 /* AVFoundation.framework */,
-				AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F2060EB70173309EDADB7C5620C47094 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				82B360A0A553B003A1A4A673FF382F7C /* Alamofire.framework */,
-				38DF6C74A523E70420F076602015A240 /* DLRadioButton.framework */,
-				13660F2B2C409E46786012F896296D84 /* Pods_httpMethod_class_exe.framework */,
-				6B7EF7817ADC4AB124C70D86197295C4 /* Pods_httpMethod_class_exeTests.framework */,
-				C000F880C0D5D72C570AB008BB7EC19D /* Pods_httpMethod_class_exeUITests.framework */,
-				E86106007706DC6229D1A89141E55D3E /* QRCodeReader.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F21D45234794A6FBBBFD17AD8839ED4A /* Pods-httpMethod_class_exeUITests */ = {
@@ -459,22 +642,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		532DE91E5C8F1ACCFA6F4B131E75D47F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D834DEE2BF19515890B6CD82917E6FCE /* QRCodeReader.swift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D5BB6AB663C8E4F13E4E6F11F50DF03 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2116209463E4BDBB348F5E78C6F5CB0 /* Pods-httpMethod_class_exe-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8AE5E33E49680DF98C0B57EBCE7C59BC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -489,6 +656,30 @@
 			files = (
 				55B2CCDC53F0969011D2BA234E56B7E9 /* DLRadioButton-umbrella.h in Headers */,
 				0DDDE4B88D870D6225BAB7EECD72B490 /* DLRadioButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9030456CE8B6297F8204265BFC4FFB10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6271908171BCC85FE14E495BDC75DD4 /* QRCodeReader.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF5ED992BB4E6234E5E767D2273A21D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38627D11DDF0EF609B0140DEBEB94186 /* Pods-httpMethod_class_exe-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC613BE6ED85EFC030D23BED1A98A36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82862AA4EC1076A840182E5C0271BF0E /* NVActivityIndicatorView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,28 +702,7 @@
 			);
 			name = "Pods-httpMethod_class_exeTests";
 			productName = "Pods-httpMethod_class_exeTests";
-			productReference = 6B7EF7817ADC4AB124C70D86197295C4 /* Pods_httpMethod_class_exeTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		0C3FB7463142DC81B905592306EE1AF4 /* Pods-httpMethod_class_exe */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EC2BAD18266E2FC56984D537F2F9E950 /* Build configuration list for PBXNativeTarget "Pods-httpMethod_class_exe" */;
-			buildPhases = (
-				7D5BB6AB663C8E4F13E4E6F11F50DF03 /* Headers */,
-				F345C63D2D28579B6D43513C0010D98F /* Sources */,
-				15F747F972C0CF98769A02EA8FA6C0BF /* Frameworks */,
-				CCE30DC86BCB0152AD884A502E8FE293 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D01CD705CCB7DA4E0C9400C7996916B7 /* PBXTargetDependency */,
-				C3305A9BA97B1E7D6B231B4CD5570908 /* PBXTargetDependency */,
-				E09AA5D0D072E81B2D82FE1240167279 /* PBXTargetDependency */,
-			);
-			name = "Pods-httpMethod_class_exe";
-			productName = "Pods-httpMethod_class_exe";
-			productReference = 13660F2B2C409E46786012F896296D84 /* Pods_httpMethod_class_exe.framework */;
+			productReference = B343C6C8CEAB78CA3E64FFEDF2865566 /* Pods_httpMethod_class_exeTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3383968E74B5371B20BB519B170DC7FD /* Alamofire */ = {
@@ -550,7 +720,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 82B360A0A553B003A1A4A673FF382F7C /* Alamofire.framework */;
+			productReference = 0ADBE3EA06A702F24AA799C9CD62FFB6 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		46BD0675E3AE6FB8C284CB79F1013052 /* DLRadioButton */ = {
@@ -568,17 +738,17 @@
 			);
 			name = DLRadioButton;
 			productName = DLRadioButton;
-			productReference = 38DF6C74A523E70420F076602015A240 /* DLRadioButton.framework */;
+			productReference = 0972ADE0683530A79ED13A66FBAF6561 /* DLRadioButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A3DF29F578D0404889F728ABDD6C44DC /* QRCodeReader.swift */ = {
+		4E11A787104BC65F404802E6943217A0 /* QRCodeReader.swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04605072A22F8E77A2966F27E5CE2A86 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */;
+			buildConfigurationList = 35F4263117CFF11257FD931FBEE54AC3 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */;
 			buildPhases = (
-				532DE91E5C8F1ACCFA6F4B131E75D47F /* Headers */,
-				7EBF3319E1D9B11147C37917C1BC9960 /* Sources */,
-				79A727989064977702260308FA06DEF6 /* Frameworks */,
-				169DC66E9CC2C3200403C411202C7C87 /* Resources */,
+				9030456CE8B6297F8204265BFC4FFB10 /* Headers */,
+				C1D025F3E4CA61859DBF91A8CE1B0575 /* Sources */,
+				907F2E62E9A55AE7FAD2EAA8DE1C7A8D /* Frameworks */,
+				2DD007A0B69453FC079189A99D5ECCFC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -586,7 +756,25 @@
 			);
 			name = QRCodeReader.swift;
 			productName = QRCodeReader.swift;
-			productReference = E86106007706DC6229D1A89141E55D3E /* QRCodeReader.framework */;
+			productReference = 4A40754F2EC29A5AFAAB518BD5367280 /* QRCodeReader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		54B1439EA0C8737E1BAF1F8CEF27B62C /* NVActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC049F11516B9FB230A8FBBAC5EFAF10 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */;
+			buildPhases = (
+				DEC613BE6ED85EFC030D23BED1A98A36 /* Headers */,
+				751157CDF906BE304CAF58FE7BA4E9BA /* Sources */,
+				907C9B6973FF982F5A728DCC26F74119 /* Frameworks */,
+				44154340E1444E4F3CA81B5944C06C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NVActivityIndicatorView;
+			productName = NVActivityIndicatorView;
+			productReference = F621CC8921BE4DFC5DDC9AE90A915C05 /* NVActivityIndicatorView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B5F2EF534D29F3A3A28121A2535BAC2D /* Pods-httpMethod_class_exeUITests */ = {
@@ -605,7 +793,29 @@
 			);
 			name = "Pods-httpMethod_class_exeUITests";
 			productName = "Pods-httpMethod_class_exeUITests";
-			productReference = C000F880C0D5D72C570AB008BB7EC19D /* Pods_httpMethod_class_exeUITests.framework */;
+			productReference = 81CEBBD1B330651112F55F506C655FA8 /* Pods_httpMethod_class_exeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA5C821EC067AFDCFCFE4ADDFF319A8E /* Pods-httpMethod_class_exe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F14533A2BE6D87CF2A8804AEA111F3 /* Build configuration list for PBXNativeTarget "Pods-httpMethod_class_exe" */;
+			buildPhases = (
+				9DF5ED992BB4E6234E5E767D2273A21D /* Headers */,
+				3EEF9E7DA691F108BC4CC144E8896202 /* Sources */,
+				9F185CDBF3297C800DF3391C4087CA97 /* Frameworks */,
+				266ACD1A77F14048B38C973CE56EFF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40FFF3E99AD7439BABF65CEF7F80817B /* PBXTargetDependency */,
+				FBEAD2F0BCD3E0CA72D42598834B21AB /* PBXTargetDependency */,
+				7F3717D4D83D117F6665E42F4CAFC685 /* PBXTargetDependency */,
+				BF34DE269F50B78851F4CAE63A0CC276 /* PBXTargetDependency */,
+			);
+			name = "Pods-httpMethod_class_exe";
+			productName = "Pods-httpMethod_class_exe";
+			productReference = 22AB1291306F59B32ED35BEB47540F2E /* Pods_httpMethod_class_exe.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -625,28 +835,22 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F2060EB70173309EDADB7C5620C47094 /* Products */;
+			productRefGroup = A4A735281C64C6993AF33B1056570461 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3383968E74B5371B20BB519B170DC7FD /* Alamofire */,
 				46BD0675E3AE6FB8C284CB79F1013052 /* DLRadioButton */,
-				0C3FB7463142DC81B905592306EE1AF4 /* Pods-httpMethod_class_exe */,
+				54B1439EA0C8737E1BAF1F8CEF27B62C /* NVActivityIndicatorView */,
+				EA5C821EC067AFDCFCFE4ADDFF319A8E /* Pods-httpMethod_class_exe */,
 				020D6E547D1958A1FBFA6ECF63472957 /* Pods-httpMethod_class_exeTests */,
 				B5F2EF534D29F3A3A28121A2535BAC2D /* Pods-httpMethod_class_exeUITests */,
-				A3DF29F578D0404889F728ABDD6C44DC /* QRCodeReader.swift */,
+				4E11A787104BC65F404802E6943217A0 /* QRCodeReader.swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		169DC66E9CC2C3200403C411202C7C87 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		21DB0C0CA3815E9F41D21BAA21744854 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -654,7 +858,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		266ACD1A77F14048B38C973CE56EFF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28FF73341543B6F0A7DF3C20CFFEA0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD007A0B69453FC079189A99D5ECCFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44154340E1444E4F3CA81B5944C06C09 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -675,13 +900,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCE30DC86BCB0152AD884A502E8FE293 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -693,6 +911,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3EEF9E7DA691F108BC4CC144E8896202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC59C9BA5294955D1819544A33CCCAC1 /* Pods-httpMethod_class_exe-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44AEBF8C01FE763DB71E0904380D201E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -701,21 +927,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7EBF3319E1D9B11147C37917C1BC9960 /* Sources */ = {
+		751157CDF906BE304CAF58FE7BA4E9BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651216E55EC5855D0163AC222DF938A6 /* QRCodeReader.swift in Sources */,
-				CECD6E760FE3C8E47B16BDAFFF49C393 /* QRCodeReader.swift-dummy.m in Sources */,
-				8218C93FBBB678F4C6AED0107C877717 /* QRCodeReaderResult.swift in Sources */,
-				62F66F2A06C858B248486E4A58E3CA15 /* QRCodeReaderView.swift in Sources */,
-				260827834D4BE9B3F38BD395F5505ED9 /* QRCodeReaderViewContainer.swift in Sources */,
-				1D69E36007D5546C41C0410F2D0D5A75 /* QRCodeReaderViewController.swift in Sources */,
-				5165E39E6D11DE6800F2917EF59258D2 /* QRCodeReaderViewControllerBuilder.swift in Sources */,
-				CB38C724AC407F50CCABE38BA2751DD1 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
-				7C0BE3413A2D5EA742C6977ABE4F7F04 /* ReaderOverlayView.swift in Sources */,
-				6ADAE5E90FE756CBE314027798E0ADF9 /* SwitchCameraButton.swift in Sources */,
-				3C6672E255DF9D94BAB11A74BD6D8635 /* ToggleTorchButton.swift in Sources */,
+				87F34F8961C6C5A82D03627E43907EED /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
+				478D927565C9922FD7CFDE8520D87D81 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */,
+				4E8F9B0F535F34A47D1E01B5008D88DF /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */,
+				0A049810D911F2BE93DBB6DED9F85F9E /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */,
+				C3CDFE14B71893B7CB729FE8CD774898 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
+				7E827949633FFF0BFB3EA0AB00E7981E /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */,
+				BABDEEA0E400185112FC54048CFAEE33 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */,
+				3EA01D63D0204092024D113ADC9B4C26 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */,
+				D62F3F1D3C2FEF3FF373FC98C9EE38E9 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */,
+				759757524FF111AEFBB5E236A3D19749 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */,
+				784708BBECB561B3319073D4A60A851E /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */,
+				B7DD9E55C13191ABF50159BFF1964F76 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */,
+				53F1C3093A17BF73042AF4BAB0E6B030 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */,
+				D38B7844BB5E179AB653102430112F55 /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
+				547FD24D18F637E68341E9F714B8D173 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
+				F47C7B7A22E39AEFC60CDC340315787A /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
+				4F7AB1D7316D3B8C31208ABF2D73CC31 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
+				BBE0890CA1E7E3C13426610AAA119F43 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
+				DB1E9B160B4DBD103B933A5619F5ABE5 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
+				173B2AB93E6069FDDF700BA452E92999 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
+				E85C43B65C95128C5BDA0F48599FEE35 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
+				D7939CCB7D607B840E329C823E3C719C /* NVActivityIndicatorAnimationBlank.swift in Sources */,
+				CE4A42C71FB0A896E776CF9EC7BB1509 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */,
+				6A0BB21F82E342EC6809AA0F45BA4FFE /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */,
+				241D8706075A6FB075A5CFA2E60873C2 /* NVActivityIndicatorAnimationDelegate.swift in Sources */,
+				D5E044D8443D80A34DF2626AFB87FF73 /* NVActivityIndicatorAnimationLineScale.swift in Sources */,
+				7056AD6E8676C1D600CD3E0F66642078 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */,
+				F93A7D854E9DE74090AE78651377004B /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */,
+				06C67BCBA6A874BD3880821F5DBB0A89 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
+				D37527398E12D52F839C0C9973775170 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */,
+				294E54C2F064E420252BC02E9E693C0B /* NVActivityIndicatorAnimationOrbit.swift in Sources */,
+				5DCAE6B70121FFEFA47B0A623777F1AE /* NVActivityIndicatorAnimationPacman.swift in Sources */,
+				88C546770279761A8EB932E1FC115A76 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
+				6552CAEB9AA077C793B8FA13C1B49B2F /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */,
+				3DDA9AC778332AD5C791AB22D387B251 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
+				0250367B9C6A10F20A3EFA4C38993F5A /* NVActivityIndicatorPresenter.swift in Sources */,
+				5BAA2E8935DDC767AA844976A263A145 /* NVActivityIndicatorShape.swift in Sources */,
+				3BB7737D1AFDED41F90C79EB8DE80FE8 /* NVActivityIndicatorView-dummy.m in Sources */,
+				DDE307664FA93D696E71ADD1D74C7F37 /* NVActivityIndicatorView.swift in Sources */,
+				7C0A63CAE4A3DFEB5FF026A2501D86EB /* NVActivityIndicatorViewable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -753,11 +1008,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F345C63D2D28579B6D43513C0010D98F /* Sources */ = {
+		C1D025F3E4CA61859DBF91A8CE1B0575 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				547690AE41B6B1FADFD1E42814AD1C6B /* Pods-httpMethod_class_exe-dummy.m in Sources */,
+				9E10B0E9490B1C5BAF7AF42E0065BDD9 /* QRCodeReader.swift in Sources */,
+				01A5A8E4FD9D4A0741F6FD4D6DA8B9F9 /* QRCodeReader.swift-dummy.m in Sources */,
+				2FBCEA092EFD59A19B9832C44233B4A2 /* QRCodeReaderResult.swift in Sources */,
+				0B2F6D044BE18EB8915AB2FEDC712662 /* QRCodeReaderView.swift in Sources */,
+				6AC636BC706965DE024D90F31C7530E5 /* QRCodeReaderViewContainer.swift in Sources */,
+				C633F0F7DE4216D4DE2C5F310A087DC1 /* QRCodeReaderViewController.swift in Sources */,
+				4C727A2F40D4EF69741F29529323EF62 /* QRCodeReaderViewControllerBuilder.swift in Sources */,
+				B048A0248C6A985F309E11A45BC5B092 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
+				EB17CB748BB65A6322F7DD42DFCD2940 /* ReaderOverlayView.swift in Sources */,
+				7FCB4739EC6281355FADC72171A574FE /* SwitchCameraButton.swift in Sources */,
+				C60F73220347E85F47C584A1B13EA82D /* ToggleTorchButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -767,78 +1032,45 @@
 		3226C6D64755D4A89050E7D342F39ABF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-httpMethod_class_exe";
-			target = 0C3FB7463142DC81B905592306EE1AF4 /* Pods-httpMethod_class_exe */;
+			target = EA5C821EC067AFDCFCFE4ADDFF319A8E /* Pods-httpMethod_class_exe */;
 			targetProxy = 5B3D81B96E3A03EFA5B3040D03E9025E /* PBXContainerItemProxy */;
 		};
-		C3305A9BA97B1E7D6B231B4CD5570908 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DLRadioButton;
-			target = 46BD0675E3AE6FB8C284CB79F1013052 /* DLRadioButton */;
-			targetProxy = EE44CD4F8C88013DC5D475962E0CE49C /* PBXContainerItemProxy */;
-		};
-		D01CD705CCB7DA4E0C9400C7996916B7 /* PBXTargetDependency */ = {
+		40FFF3E99AD7439BABF65CEF7F80817B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 3383968E74B5371B20BB519B170DC7FD /* Alamofire */;
-			targetProxy = B5E80F5C87AD5BE096E5DC959664BD6E /* PBXContainerItemProxy */;
+			targetProxy = 443B64B0175A2C1F1355C1BB97D152EA /* PBXContainerItemProxy */;
 		};
-		E09AA5D0D072E81B2D82FE1240167279 /* PBXTargetDependency */ = {
+		7F3717D4D83D117F6665E42F4CAFC685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVActivityIndicatorView;
+			target = 54B1439EA0C8737E1BAF1F8CEF27B62C /* NVActivityIndicatorView */;
+			targetProxy = 841CAD2EAC7255F3D6C588141FAB61D6 /* PBXContainerItemProxy */;
+		};
+		BF34DE269F50B78851F4CAE63A0CC276 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QRCodeReader.swift;
-			target = A3DF29F578D0404889F728ABDD6C44DC /* QRCodeReader.swift */;
-			targetProxy = FBB85C19AF296318EDF8E8B94C4C97F9 /* PBXContainerItemProxy */;
+			target = 4E11A787104BC65F404802E6943217A0 /* QRCodeReader.swift */;
+			targetProxy = F3C2E96855473B6E5DF8531D0F2D7446 /* PBXContainerItemProxy */;
 		};
 		E81409D5A88C738E0A69718C0100D302 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-httpMethod_class_exe";
-			target = 0C3FB7463142DC81B905592306EE1AF4 /* Pods-httpMethod_class_exe */;
+			target = EA5C821EC067AFDCFCFE4ADDFF319A8E /* Pods-httpMethod_class_exe */;
 			targetProxy = EFA79D4B54BC965B382D720EAC60C8A7 /* PBXContainerItemProxy */;
+		};
+		FBEAD2F0BCD3E0CA72D42598834B21AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLRadioButton;
+			target = 46BD0675E3AE6FB8C284CB79F1013052 /* DLRadioButton */;
+			targetProxy = D26D74BCD4011B2371781B9CCE447BE5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2231B4A0C3FE419CCBDFBFAA071DCE2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 727AFF111F9296F7DF3CA3F47DB45FF2 /* Pods-httpMethod_class_exe.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-httpMethod_class_exe/Pods-httpMethod_class_exe-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-httpMethod_class_exe/Pods-httpMethod_class_exe.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		26C39F871FFE43198EC27B9688B8AC65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BAC680A84C7AEAF4264E5FD07A8594A /* DLRadioButton.xcconfig */;
+			baseConfigurationReference = 7EA4539EE0425D9D4A50D25BA0603E4D /* DLRadioButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -861,6 +1093,41 @@
 				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
 				PRODUCT_MODULE_NAME = DLRadioButton;
 				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30C3968ADC3DE447F385657C132C27FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FFB70A5F297421CE39976AE48097345 /* QRCodeReader.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
+				PRODUCT_MODULE_NAME = QRCodeReader;
+				PRODUCT_NAME = QRCodeReader;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -947,6 +1214,41 @@
 			};
 			name = Debug;
 		};
+		4B5EBE0AAA662D54BD0DEED4D9ECF3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD6353948D50D72CDBF00153A7EA96B7 /* NVActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
+				PRODUCT_NAME = NVActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		666D4D3CAE1EC316E5244A3F2326DA77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 72A4C7CEE60B56831C3B38AAF898ACAA /* Pods-httpMethod_class_exeTests.release.xcconfig */;
@@ -986,10 +1288,12 @@
 			};
 			name = Release;
 		};
-		9A4EC18092301B34F83B96E52455F1EF /* Debug */ = {
+		87E8522298E191C4AA820DD4E86BC514 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F910E2C5BD4E47F3724F3CD75DE1B2AB /* QRCodeReader.swift.xcconfig */;
+			baseConfigurationReference = C5F25C9C1F896ED5631892AB5B0A1067 /* Pods-httpMethod_class_exe.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -999,31 +1303,71 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-httpMethod_class_exe/Pods-httpMethod_class_exe-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
-				PRODUCT_MODULE_NAME = QRCodeReader;
-				PRODUCT_NAME = QRCodeReader;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-httpMethod_class_exe/Pods-httpMethod_class_exe.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		8A4C199951E6E4442FB2DFB27F77574D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727AFF111F9296F7DF3CA3F47DB45FF2 /* Pods-httpMethod_class_exe.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-httpMethod_class_exe/Pods-httpMethod_class_exe-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-httpMethod_class_exe/Pods-httpMethod_class_exe.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9CF36E6AA46D597086D835E1724A4D87 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C8FCF8458A54C3D17B0DB0D895E8D06 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 3D9E700DBA96FC48F7E23246AF02A3A6 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1119,7 +1463,7 @@
 		};
 		B914025A518B53556696F19D8D477057 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C8FCF8458A54C3D17B0DB0D895E8D06 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 3D9E700DBA96FC48F7E23246AF02A3A6 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1255,47 +1599,9 @@
 			};
 			name = Debug;
 		};
-		C4A2BCABF0F4C26001D7CB1421CFBF5F /* Debug */ = {
+		C45B4373CB74D7D3F82FA30CED055B96 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5F25C9C1F896ED5631892AB5B0A1067 /* Pods-httpMethod_class_exe.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-httpMethod_class_exe/Pods-httpMethod_class_exe-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-httpMethod_class_exe/Pods-httpMethod_class_exe.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C4EA0DABF10E4096E259990964D82363 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F910E2C5BD4E47F3724F3CD75DE1B2AB /* QRCodeReader.swift.xcconfig */;
+			baseConfigurationReference = 4FFB70A5F297421CE39976AE48097345 /* QRCodeReader.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1329,9 +1635,45 @@
 			};
 			name = Release;
 		};
+		CA23F1A23D92A6E5E0257AFD3E3D62F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD6353948D50D72CDBF00153A7EA96B7 /* NVActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
+				PRODUCT_NAME = NVActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D1EA458E1A3BF5FC91F4F7A1FB08F996 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BAC680A84C7AEAF4264E5FD07A8594A /* DLRadioButton.xcconfig */;
+			baseConfigurationReference = 7EA4539EE0425D9D4A50D25BA0603E4D /* DLRadioButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1368,15 +1710,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04605072A22F8E77A2966F27E5CE2A86 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9A4EC18092301B34F83B96E52455F1EF /* Debug */,
-				C4EA0DABF10E4096E259990964D82363 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		0E0873FB8BF3397083583ED5E2B8C62E /* Build configuration list for PBXNativeTarget "Pods-httpMethod_class_exeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1395,11 +1728,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		35F4263117CFF11257FD931FBEE54AC3 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C3968ADC3DE447F385657C132C27FC /* Debug */,
+				C45B4373CB74D7D3F82FA30CED055B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1391485F05B41BD35738A433056B7FA /* Debug */,
 				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F14533A2BE6D87CF2A8804AEA111F3 /* Build configuration list for PBXNativeTarget "Pods-httpMethod_class_exe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E8522298E191C4AA820DD4E86BC514 /* Debug */,
+				8A4C199951E6E4442FB2DFB27F77574D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1413,20 +1764,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		DC049F11516B9FB230A8FBBAC5EFAF10 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5EBE0AAA662D54BD0DEED4D9ECF3DB /* Debug */,
+				CA23F1A23D92A6E5E0257AFD3E3D62F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E87124444A44B7DB55208E7FEC21D331 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B914025A518B53556696F19D8D477057 /* Debug */,
 				9CF36E6AA46D597086D835E1724A4D87 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EC2BAD18266E2FC56984D537F2F9E950 /* Build configuration list for PBXNativeTarget "Pods-httpMethod_class_exe" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C4A2BCABF0F4C26001D7CB1421CFBF5F /* Debug */,
-				2231B4A0C3FE419CCBDFBFAA071DCE2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

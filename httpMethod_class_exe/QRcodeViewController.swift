@@ -17,6 +17,8 @@ class QRcodeViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
     
     var captureSession: AVCaptureSession!
     //var previewLayer: AVCaptureVideoPreviewLayer!
+    
+    var QRCodeResponse = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,9 +71,18 @@ class QRcodeViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
     
    
     @IBAction func test(_ sender: UIButton) {
-        if let controller = storyboard?.instantiateViewController(withIdentifier: "view2") {
-            present(controller, animated: true, completion: nil)
+        
+        let delayQueue = DispatchQueue(label: "delayQueue")
+        print("Before: \(Date())")
+        delayQueue.asyncAfter(deadline: DispatchTime.now() + 2) {
+            print("After: \(Date())")
         }
+        /*let alert = UIAlertController(title: "QRCode掃描錯誤", message: "請重新掃描", preferredStyle: .alert)
+        let action = UIAlertAction(title: "ok", style: .default) { (UIAlertAction) in
+            print("ok")
+        }
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)*/
     }
     
     
@@ -105,9 +116,32 @@ class QRcodeViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
     
     func found(code: String) {
         print(code)
-        if let controller = storyboard?.instantiateViewController(withIdentifier: "view2") {
-            present(controller, animated: true, completion: nil)
+        QRCodeResponse = code
+        if code == "ABCD65421844" {
+            if let controller = storyboard?.instantiateViewController(withIdentifier: "view2") {
+                present(controller, animated: true, completion: nil)
+            }
         }
+        else {
+            
+            
+            
+            let alert = UIAlertController(title: "QRCode掃描錯誤", message: "請重新掃描", preferredStyle: .alert)
+            /*let action = UIAlertAction(title: "ok", style: .default) { (UIAlertAction) in
+                print("ok")
+            }*/
+            //alert.addAction(action)
+            present(alert, animated: true, completion: nil)
+            
+            let delayQueue = DispatchQueue(label: "delayQueue")//函式延遲呼叫
+            print("Before: \(Date())")
+            delayQueue.asyncAfter(deadline: DispatchTime.now() + 3) {
+                print("After: \(Date())")
+                self.captureSession.startRunning()
+                alert.dismiss(animated: true, completion: nil)
+            }
+        }
+        
     }
     
     /*override var prefersStatusBarHidden: Bool {

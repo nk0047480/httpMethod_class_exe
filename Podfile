@@ -20,4 +20,6 @@ target 'httpMethod_class_exe' do
   pod 'Alamofire','~> 4.0'
   pod 'DLRadioButton', '~> 1.4'	
   pod 'QRCodeReader.swift', '~> 9.0.0'
+  pod 'NVActivityIndicatorView'
+
 end
