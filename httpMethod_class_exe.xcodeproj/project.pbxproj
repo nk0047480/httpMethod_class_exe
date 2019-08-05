@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043D484D22EEA6A3006DCD05 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D484C22EEA6A3006DCD05 /* AccountViewController.swift */; };
+		043D484F22F024F7006DCD05 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D484E22F024F7006DCD05 /* SignInViewController.swift */; };
 		044425EB22D3291100090CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044425EA22D3291100090CD1 /* AppDelegate.swift */; };
 		044425ED22D3291100090CD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044425EC22D3291100090CD1 /* ViewController.swift */; };
 		044425F022D3291100090CD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044425EE22D3291100090CD1 /* Main.storyboard */; };
@@ -18,7 +20,6 @@
 		0444261F22D32C6200090CD1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444261E22D32C6200090CD1 /* TableViewController.swift */; };
 		0444262122D46A5300090CD1 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444262022D46A5300090CD1 /* detailViewController.swift */; };
 		0468FA3622E6F2BC000F5453 /* NVActivityIndicatorViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468FA3522E6F2BC000F5453 /* NVActivityIndicatorViewViewController.swift */; };
-		04BA69E422D5C861002020B4 /* Add_InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA69E322D5C861002020B4 /* Add_InformationViewController.swift */; };
 		04C664F622DDB63600CEC5A0 /* QRcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C664F522DDB63600CEC5A0 /* QRcodeViewController.swift */; };
 		04C664FA22DEBD0B00CEC5A0 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C664F922DEBD0B00CEC5A0 /* QRViewController.swift */; };
 		04C664FC22E0107B00CEC5A0 /* QRCodeFailedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C664FB22E0107B00CEC5A0 /* QRCodeFailedController.swift */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043D484C22EEA6A3006DCD05 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		043D484E22F024F7006DCD05 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		044425E722D3291100090CD1 /* httpMethod_class_exe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = httpMethod_class_exe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044425EA22D3291100090CD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		044425EC22D3291100090CD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +65,6 @@
 		0444261E22D32C6200090CD1 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		0444262022D46A5300090CD1 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		0468FA3522E6F2BC000F5453 /* NVActivityIndicatorViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorViewViewController.swift; sourceTree = "<group>"; };
-		04BA69E322D5C861002020B4 /* Add_InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_InformationViewController.swift; sourceTree = "<group>"; };
 		04C664F522DDB63600CEC5A0 /* QRcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRcodeViewController.swift; sourceTree = "<group>"; };
 		04C664F922DEBD0B00CEC5A0 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
 		04C664FB22E0107B00CEC5A0 /* QRCodeFailedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeFailedController.swift; sourceTree = "<group>"; };
@@ -139,11 +141,12 @@
 				0444261822D3293B00090CD1 /* Main_httpMethod.swift */,
 				0444261E22D32C6200090CD1 /* TableViewController.swift */,
 				0444262022D46A5300090CD1 /* detailViewController.swift */,
-				04BA69E322D5C861002020B4 /* Add_InformationViewController.swift */,
 				04C664F522DDB63600CEC5A0 /* QRcodeViewController.swift */,
 				04C664F922DEBD0B00CEC5A0 /* QRViewController.swift */,
 				04C664FB22E0107B00CEC5A0 /* QRCodeFailedController.swift */,
 				0468FA3522E6F2BC000F5453 /* NVActivityIndicatorViewViewController.swift */,
+				043D484C22EEA6A3006DCD05 /* AccountViewController.swift */,
+				043D484E22F024F7006DCD05 /* SignInViewController.swift */,
 			);
 			path = httpMethod_class_exe;
 			sourceTree = "<group>";
@@ -426,11 +429,12 @@
 				04C664FC22E0107B00CEC5A0 /* QRCodeFailedController.swift in Sources */,
 				0444261922D3293B00090CD1 /* Main_httpMethod.swift in Sources */,
 				04C664FA22DEBD0B00CEC5A0 /* QRViewController.swift in Sources */,
-				04BA69E422D5C861002020B4 /* Add_InformationViewController.swift in Sources */,
 				0444262122D46A5300090CD1 /* detailViewController.swift in Sources */,
 				04C664F622DDB63600CEC5A0 /* QRcodeViewController.swift in Sources */,
+				043D484F22F024F7006DCD05 /* SignInViewController.swift in Sources */,
 				0468FA3622E6F2BC000F5453 /* NVActivityIndicatorViewViewController.swift in Sources */,
 				0444261F22D32C6200090CD1 /* TableViewController.swift in Sources */,
+				043D484D22EEA6A3006DCD05 /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

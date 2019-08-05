@@ -18,6 +18,11 @@ class NVActivityIndicatorViewViewController: UIViewController, NVActivityIndicat
     }
     
     
+    @IBAction func back_btn(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    
     @IBAction func type1(_ sender: UIButton) {
         let size = CGSize(width: 30.0, height: 30.0)
         startAnimating(size, message: "loading", type: NVActivityIndicatorType.ballPulse, color: UIColor.red, textColor: UIColor.white, fadeInAnimation: nil)

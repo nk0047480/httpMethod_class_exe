@@ -12,6 +12,7 @@ class httpRequest {
     
     static var responseData: Array<String> = []
     static var responseDetail: Array<String> = []
+    static var responsePassword: String = ""
     
     static func getStudentInformation() {
         
@@ -48,8 +49,8 @@ class httpRequest {
         //print("===========\(self.responseDetail)")
     }
     
-    static func addInformation(postName:String, postSex:String, postBirth:String, postEmail:String, postPhone:String, postAdd:String) {
-        Alamofire.request("http://192.168.0.117/mySQL_exe/addInformation.php", method: .post, parameters: ["addName":postName, "addSex":postSex, "addBirth":postBirth, "addEmail":postEmail, "addPhone":postPhone, "addAdd":postAdd])
+    static func addInformation(postName:String, postSex:String, postBirth:String, postAddr:String,postEmail: String, postPassword:String) {
+        Alamofire.request("http://140.116.226.182/mems_main/addInformation.php", method: .post, parameters: ["addName":postName, "addSex":postSex, "addBirth":postBirth, "addEmail":postEmail, "addPassword":postPassword, "addAdd":postAddr])
             .response { response in
                 
                 if (response.data != nil) {//解閉包，如果有東西則執行下列程式
@@ -63,6 +64,49 @@ class httpRequest {
                 }
         }
     }
+    
+    static func login(postEmail: String, enterPassword: String) {
+        Alamofire.request("http://140.116.226.182/mems_main/selectDB.php", method: .post, parameters: ["loginEmail":postEmail])
+            .response { response in
+                
+                if (response.data != nil) {//解閉包，如果有東西則執行下列程式
+                    if let utf8Text = String(data: response.data!, encoding: .utf8) {
+                        print("-----password-----\(utf8Text)-------------")
+                        
+                        //subString
+                        let startindex = utf8Text.index(utf8Text.startIndex, offsetBy: 11)
+                        let endIndex = utf8Text.index(utf8Text.endIndex, offsetBy: -2)
+                        let str = utf8Text[startindex...endIndex]
+                       
+                        //subString
+                        
+                        
+                        self.passwordConfirm(password: String(str), enterPassword: enterPassword)
+                        
+                        
+                    }
+                } else {
+                    print("error")
+                }
+        }
+    }
+    
+    static func passwordConfirm(password: String, enterPassword: String) {
+        print("password:\(password), enterPassword:\(enterPassword)")
+        print(password)
+        print(enterPassword)
+        if password == enterPassword {
+            print("good")
+            //SignInViewController.performSegue(withIdentifier: "login_segue", sender: self)//換頁
+            
+            
+            
+        }
+        else {
+            print("fail")
+        }
+    }
+    
     
     /*static func getStudentDetail(name: String) -> Array<String> {
         
