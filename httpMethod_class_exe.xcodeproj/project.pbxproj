@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0406C13F230D37A4006C7028 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406C13E230D37A4006C7028 /* PickerViewController.swift */; };
+		0437DE26230644E600B2967D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437DE25230644E600B2967D /* TestViewController.swift */; };
 		043D484D22EEA6A3006DCD05 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D484C22EEA6A3006DCD05 /* AccountViewController.swift */; };
 		043D484F22F024F7006DCD05 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D484E22F024F7006DCD05 /* SignInViewController.swift */; };
 		044425EB22D3291100090CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044425EA22D3291100090CD1 /* AppDelegate.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0406C13E230D37A4006C7028 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		0437DE25230644E600B2967D /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		043D484C22EEA6A3006DCD05 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		043D484E22F024F7006DCD05 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		044425E722D3291100090CD1 /* httpMethod_class_exe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = httpMethod_class_exe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +151,8 @@
 				0468FA3522E6F2BC000F5453 /* NVActivityIndicatorViewViewController.swift */,
 				043D484C22EEA6A3006DCD05 /* AccountViewController.swift */,
 				043D484E22F024F7006DCD05 /* SignInViewController.swift */,
+				0437DE25230644E600B2967D /* TestViewController.swift */,
+				0406C13E230D37A4006C7028 /* PickerViewController.swift */,
 			);
 			path = httpMethod_class_exe;
 			sourceTree = "<group>";
@@ -427,6 +433,7 @@
 				044425ED22D3291100090CD1 /* ViewController.swift in Sources */,
 				044425EB22D3291100090CD1 /* AppDelegate.swift in Sources */,
 				04C664FC22E0107B00CEC5A0 /* QRCodeFailedController.swift in Sources */,
+				0406C13F230D37A4006C7028 /* PickerViewController.swift in Sources */,
 				0444261922D3293B00090CD1 /* Main_httpMethod.swift in Sources */,
 				04C664FA22DEBD0B00CEC5A0 /* QRViewController.swift in Sources */,
 				0444262122D46A5300090CD1 /* detailViewController.swift in Sources */,
@@ -434,6 +441,7 @@
 				043D484F22F024F7006DCD05 /* SignInViewController.swift in Sources */,
 				0468FA3622E6F2BC000F5453 /* NVActivityIndicatorViewViewController.swift in Sources */,
 				0444261F22D32C6200090CD1 /* TableViewController.swift in Sources */,
+				0437DE26230644E600B2967D /* TestViewController.swift in Sources */,
 				043D484D22EEA6A3006DCD05 /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

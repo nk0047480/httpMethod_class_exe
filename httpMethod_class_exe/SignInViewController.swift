@@ -9,9 +9,34 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var mail_tf: UITextField!
     @IBOutlet weak var password_tf: UITextField!
     
+    @IBOutlet weak var inputTextField: UITextField!
+    
+    private var datePicker: UIDatePicker?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureTextField()
+        
+        
+        datePicker = UIDatePicker()
+        datePicker?.datePickerMode = .date
+        inputTextField.inputView = datePicker
+        datePicker?.addTarget(self, action: #selector(SignInViewController.dateChange(datePicker:)), for: .valueChanged)
+        
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(SignInViewController.viewTapped(gestureRecognizer:)))
+        view.addGestureRecognizer(tapGesture)
+    }
+    
+    @objc func viewTapped(gestureRecognizer: UITapGestureRecognizer) {
+        view.endEditing(true)
+    }
+    
+    @objc func dateChange(datePicker: UIDatePicker) {
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        inputTextField.text = dateFormatter.string(from: datePicker.date)
+        view.endEditing(true)
     }
     
     @IBAction func back_btn(_ sender: Any) {

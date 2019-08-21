@@ -67,8 +67,10 @@ class QRcodeViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
         captureSession.startRunning()
 
         // Do any additional setup after loading the view.
+        
+        
     }
-    
+   
    
     @IBAction func test(_ sender: UIButton) {
         

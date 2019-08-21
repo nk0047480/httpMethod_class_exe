@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RIs-tr-Vb3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -103,6 +103,31 @@
             </objects>
             <point key="canvasLocation" x="-1038" y="20"/>
         </scene>
+        <!--Test View Controller-->
+        <scene sceneID="ZbD-Zr-Fb7">
+            <objects>
+                <viewController id="QNf-F5-oHH" customClass="TestViewController" customModule="httpMethod_class_exe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wr7-99-B9T">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4S-QM-92V">
+                                <rect key="frame" x="164" y="552" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="bOA-RK-F77"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="4Va-JW-2OE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Amh-aq-Pyn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-240" y="-638"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -160,6 +185,14 @@
                                 <state key="normal" title="scrollView"/>
                                 <connections>
                                     <segue destination="hwy-CC-6vE" kind="show" id="OFQ-a4-AGI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGQ-ns-vXY">
+                                <rect key="frame" x="164" y="131" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="QNf-F5-oHH" kind="show" id="FdD-9A-cVy"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -507,14 +540,23 @@
                                     <action selector="back_btn:" destination="fDW-nQ-Cjx" eventType="touchUpInside" id="FLb-sy-i4p"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SfB-a9-GeX">
+                                <rect key="frame" x="61" y="325" width="258" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Pbu-oe-s5n" firstAttribute="top" secondItem="oBF-sD-yVM" secondAttribute="bottom" constant="20.5" id="3to-yU-dLl"/>
                             <constraint firstItem="5uI-eg-oCu" firstAttribute="leading" secondItem="3yk-Lh-0LW" secondAttribute="leading" constant="60" id="9I4-je-dPk"/>
+                            <constraint firstItem="3yk-Lh-0LW" firstAttribute="trailing" secondItem="SfB-a9-GeX" secondAttribute="trailing" constant="56" id="DPH-Eq-S6g"/>
                             <constraint firstItem="5QS-Jg-9Fz" firstAttribute="top" secondItem="5uI-eg-oCu" secondAttribute="bottom" constant="29" id="IH7-RL-Uv2"/>
+                            <constraint firstItem="3yk-Lh-0LW" firstAttribute="bottom" secondItem="SfB-a9-GeX" secondAttribute="bottom" constant="268" id="K10-n9-bnE"/>
                             <constraint firstItem="3yk-Lh-0LW" firstAttribute="trailing" secondItem="9jG-Gj-pUK" secondAttribute="trailing" constant="56" id="Ocs-cz-MGQ"/>
                             <constraint firstItem="5QS-Jg-9Fz" firstAttribute="centerX" secondItem="5uI-eg-oCu" secondAttribute="centerX" id="RfW-td-qHa"/>
+                            <constraint firstItem="SfB-a9-GeX" firstAttribute="leading" secondItem="3yk-Lh-0LW" secondAttribute="leading" constant="61" id="Ri9-bI-Jsf"/>
                             <constraint firstItem="5uI-eg-oCu" firstAttribute="top" secondItem="3yk-Lh-0LW" secondAttribute="top" constant="91" id="TFP-T2-iIL"/>
                             <constraint firstItem="oBF-sD-yVM" firstAttribute="leading" secondItem="5uI-eg-oCu" secondAttribute="trailing" constant="28" id="YP0-s7-DKb"/>
                             <constraint firstItem="cUz-gu-WKh" firstAttribute="top" secondItem="5QS-Jg-9Fz" secondAttribute="bottom" constant="58" id="fUo-7G-fqO"/>
@@ -528,7 +570,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3yk-Lh-0LW"/>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="inputTextField" destination="SfB-a9-GeX" id="PQ8-lD-COg"/>
                         <outlet property="mail_tf" destination="oBF-sD-yVM" id="BMx-nI-WoS"/>
                         <outlet property="password_tf" destination="Pbu-oe-s5n" id="gjF-Xt-qGe"/>
                         <segue destination="TG8-xN-X1c" kind="show" identifier="login_segue" id="8Et-bo-aCL"/>
@@ -536,7 +581,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Alp-53-1aj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-244" y="1532"/>
+            <point key="canvasLocation" x="-244" y="1531.4842578710645"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VWw-nM-3Kd">
@@ -637,22 +682,36 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vgd-Za-vEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1340" y="903.59820089955031"/>
+            <point key="canvasLocation" x="1478" y="731"/>
         </scene>
-        <!--Code Failed Controller-->
+        <!--Picker View Controller-->
         <scene sceneID="ZgU-Vz-2AA">
             <objects>
-                <viewController storyboardIdentifier="view3" id="RIs-tr-Vb3" customClass="QRCodeFailedController" customModule="httpMethod_class_exe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="view3" id="RIs-tr-Vb3" customClass="PickerViewController" customModule="httpMethod_class_exe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xfv-IL-5Eg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EMR-7k-jYl">
+                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="RIs-tr-Vb3" id="hoM-QI-qqf"/>
+                                    <outlet property="delegate" destination="RIs-tr-Vb3" id="SDH-1Y-ADZ"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EMR-7k-jYl" firstAttribute="leading" secondItem="uO3-Xo-4la" secondAttribute="leading" id="681-H5-DIC"/>
+                            <constraint firstItem="EMR-7k-jYl" firstAttribute="trailing" secondItem="uO3-Xo-4la" secondAttribute="trailing" id="Htv-ri-sjn"/>
+                            <constraint firstItem="EMR-7k-jYl" firstAttribute="bottom" secondItem="uO3-Xo-4la" secondAttribute="bottom" id="Lry-P1-clR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="uO3-Xo-4la"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dfd-FF-w0x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2030" y="900"/>
+            <point key="canvasLocation" x="2316" y="891"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="pRg-iO-3Fr">
@@ -858,10 +917,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UgD-3e-7gK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1293.5999999999999" y="132.68365817091455"/>
+            <point key="canvasLocation" x="1297" y="67"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="5ya-t1-o8f"/>
+        <segue reference="FdD-9A-cVy"/>
+        <segue reference="JTf-zC-eC2"/>
     </inferredMetricsTieBreakers>
 </document>

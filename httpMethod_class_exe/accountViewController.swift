@@ -4,7 +4,11 @@ import UIKit
 import DLRadioButton
 class AccountViewController: UIViewController, UITextFieldDelegate {
     
+    
     var sex_str: String = ""
+    
+    var height = CGRect(x: 0, y: 0, width: 10, height: 10)
+    var activeTextField: UITextField!
     
     
     @IBOutlet weak var name_tf: UITextField!
@@ -88,10 +92,55 @@ class AccountViewController: UIViewController, UITextFieldDelegate {
     }*/
     
     
+    
+    
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        activeTextField = textField
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        view.frame.origin.y = 0
+    }
+    
+    deinit {
+        //stop listening for keyboard hide/show events
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
+        
+    }
+    @objc func keyboardWillChange(notification: Notification) {
+        print("Keyboard will show: \(notification.name.rawValue)")
+        
+        guard let keyboardRect = (notification.userInfo![UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else {
+            return
+        }
+        
+        if activeTextField == mail_tf || activeTextField == password_tf || activeTextField == passwordConfirm_tf {
+            view.frame.origin.y = -keyboardRect.height
+        }
+        /*if notification.name == UIResponder.keyboardWillShowNotification || notification.name == UIResponder.keyboardWillChangeFrameNotification {
+            view.frame.origin.y = -keyboardRect.height
+        } else {
+            view.frame.origin.y = 0
+        }*/
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         configureTextField()
+        //****
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
+        
+        print("viewDidLoad")
 
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print("viewDidAppear")
     }
     
     func configureTextField() {
@@ -108,11 +157,16 @@ class AccountViewController: UIViewController, UITextFieldDelegate {
         textField.resignFirstResponder()
         return true
     }
+    //**
     
+    //**
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         //點空白處收起鍵盤
         self.view.endEditing(true)
     }
+    
+    
+   
 
    
 
